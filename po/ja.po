@@ -75,10 +75,8 @@ msgid "general"
 msgstr "一般"
 
 #: ../build/bin/preferences_gen.h:3513
-#, fuzzy
-#| msgid "deleting preset for obsolete module"
 msgid "hide built-in presets for utility modules"
-msgstr "使われていないモジュールの設定値を削除しています"
+msgstr "ユーティリティモジュールの組み込みプリセットを非表示にする"
 
 #: ../build/bin/preferences_gen.h:3524 ../build/bin/preferences_gen.h:3560
 #: ../build/bin/preferences_gen.h:3596 ../build/bin/preferences_gen.h:3632
@@ -145,33 +143,25 @@ msgstr "FALSE"
 
 #: ../build/bin/preferences_gen.h:3527
 msgid "hides built-in presets of utility modules in presets menu."
-msgstr ""
+msgstr "ユーティリティモジュールの組み込みプリセットを非表示にする"
 
 #: ../build/bin/preferences_gen.h:3549
-#, fuzzy
-#| msgid "use single-click in the collect panel"
 msgid "use single-click in the collections module"
-msgstr "コレクションパネルでシングルクリックを使用"
+msgstr "コレクションモジュールでシングルクリックを使用する"
 
 #: ../build/bin/preferences_gen.h:3563
-#, fuzzy
-#| msgid ""
-#| "check this option to use single-click to select items in the collect "
-#| "panel. this will allow you to do range selections for date-time and "
-#| "numeric values."
 msgid ""
 "check this option to use single-click to select items in the collections "
 "module. this will allow you to do range selections for date-time and numeric "
 "values."
 msgstr ""
-"シングルクリックを使用してコレクションパネルのアイテムを選択するには、このオ"
-"プションをオンにします。 これにより日時と数値の範囲選択を行うことができます"
+"シングルクリックを使用してコレクションモジュール内のアイテムを選択するには、"
+"このオプションをオンにします。これにより、日時と数値の範囲を選択できるように"
+"なります。"
 
 #: ../build/bin/preferences_gen.h:3585
-#, fuzzy
-#| msgid "expand a single lighttable module at a time"
 msgid "expand a single utility module at a time"
-msgstr "ライトテーブルのモジュールを同時に一つだけ展開します"
+msgstr "一度にひとつのユーティリティモジュールを展開します."
 
 #: ../build/bin/preferences_gen.h:3599
 msgid "this option toggles the behavior of shift clicking in lighttable mode"
@@ -179,10 +169,8 @@ msgstr ""
 "このオプションはライトテーブル・モードでのクリックシフトの動作を切り替えます"
 
 #: ../build/bin/preferences_gen.h:3621
-#, fuzzy
-#| msgid "scroll to lighttable modules when expanded/collapsed"
 msgid "scroll to utility modules when expanded/collapsed"
-msgstr "ライトテーブルのモジュールの展開/折りたたみ時にスクロースさせます"
+msgstr "展開/折りたたみ時にユーティリティモジュールまでスクロールします。"
 
 #: ../build/bin/preferences_gen.h:3635 ../build/bin/preferences_gen.h:4822
 msgid ""
@@ -197,15 +185,11 @@ msgid "rating an image one star twice will not zero out the rating"
 msgstr "星一つの画像を２回評価しても星なしの評価にしません"
 
 #: ../build/bin/preferences_gen.h:3671
-#, fuzzy
-#| msgid "rating an image one star twice will not zero out the rating"
 msgid ""
 "defines whether rating an image one star twice will zero out star rating."
-msgstr "星一つの画像を２回評価しても星なしの評価にしません"
+msgstr "画像を1つ星で2回評価すると、星の評価がゼロになるかどうかを定義します。"
 
 #: ../build/bin/preferences_gen.h:3693 ../build/bin/preferences_gen.h:4389
-#, fuzzy
-#| msgid "show scrollbars for center view"
 msgid "show scrollbars for central view"
 msgstr "センタービューのスクロールバーを表示します"
 
@@ -227,20 +211,17 @@ msgid "TRUE"
 msgstr "TRUE"
 
 #: ../build/bin/preferences_gen.h:3707 ../build/bin/preferences_gen.h:4403
-#, fuzzy
-#| msgid "defines where scrollbars should be displayed"
 msgid "defines whether scrollbars should be displayed"
-msgstr "スクロールバーを表示する場所を定義します"
+msgstr "スクロールバーを表示するかどうかを定義します。"
 
 #: ../build/bin/preferences_gen.h:3717
-#, fuzzy
-#| msgid "thumbnail"
 msgid "thumbnails"
 msgstr "サムネイル"
 
 #: ../build/bin/preferences_gen.h:3737
 msgid "use raw file instead of embedded JPEG from size"
 msgstr ""
+"サムネイルのサイズに応じて, 埋め込みJPEGの代わりにRAWファイルを使用する"
 
 #: ../build/bin/preferences_gen.h:3748 ../build/bin/preferences_gen.h:3843
 #: ../build/bin/preferences_gen.h:4985 ../build/bin/preferences_gen.h:5039
@@ -312,18 +293,17 @@ msgid ""
 "should choose the *always* option.\n"
 "(more comments in the manual)"
 msgstr ""
+"サムネイルのサイズがこの値より大きい場合、埋め込まれたプレビューJPEGの代わり"
+"にRAWファイルを使用して処理されます（高品質だが遅い）。\n"
+"すべてのサムネイルと事前にレンダリングされた画像を最高の品質で表示したい場合"
+"は、つねに オプションを選択する必要があります。\n"
+"（マニュアルのその他のコメント）"
 
 #: ../build/bin/preferences_gen.h:3832
-#, fuzzy
-#| msgid "high quality thumb processing from size"
 msgid "high quality processing from size"
-msgstr "サイズによる高品質なサムネイル処理"
+msgstr "サムネイルのサイズに応じて, 高品質の処理"
 
 #: ../build/bin/preferences_gen.h:3905
-#, fuzzy
-#| msgid ""
-#| "if the thumbnail size is greater than this value, it will be processed "
-#| "using the full quality rendering path (better but slower)."
 msgid ""
 "if the thumbnail size is greater than this value, it will be processed using "
 "the full quality rendering path (better but slower).\n"
@@ -332,11 +312,16 @@ msgid ""
 "(more comments in the manual)"
 msgstr ""
 "サムネイルサイズがこの値より大きい場合には、完全な品質のレンダリングパスを使"
-"用して処理されます。(高品質ですが低速)"
+"用して処理されます。(高品質ですが低速)\n"
+"サムネイルサイズがこの値より大きい場合, フル品質のレンダリングパスを使用して"
+"処理されます（高品質だが遅い）。\n"
+"すべてのサムネイルと事前にレンダリングされた画像を最高の品質で表示したい場合"
+"は、つねに オプションを選択する必要があります。\n"
+"（マニュアルのその他のコメント）"
 
 #: ../build/bin/preferences_gen.h:3927
 msgid "delimiters for size categories"
-msgstr ""
+msgstr "サイズ カテゴリーの区切り"
 
 #: ../build/bin/preferences_gen.h:3945
 msgid ""
@@ -344,10 +329,14 @@ msgid ""
 "depending of the size of the thumbnail, separated by |. for example, 120|400 "
 "means 3 categories of thumbnails : 0px->120px, 120px->400px and >400px"
 msgstr ""
+"サイズカテゴリは、サムネイルのサイズに応じて、|で区切られたさまざまなオーバー"
+"レイとcss値を設定できるようにするために使用されます。たとえば、120 | 400は、"
+"サムネイルの3つのカテゴリ（0px-> 120px、120px-> 400px、> 400px）を意味しま"
+"す。"
 
 #: ../build/bin/preferences_gen.h:3967
 msgid "pattern for the thumbnail extended overlay text"
-msgstr ""
+msgstr "サムネイルの拡張オーバーレイ表示のパターン"
 
 #: ../build/bin/preferences_gen.h:3988 ../build/bin/preferences_gen.h:4031
 msgid "see manual to know all the tags you can use."
@@ -355,7 +344,7 @@ msgstr "使用できるすべてのタグについては、マニュアルを参
 
 #: ../build/bin/preferences_gen.h:4010
 msgid "pattern for the thumbnail tooltip (empty to disable)"
-msgstr ""
+msgstr "サムネイルのツールチップのパターン (無効にするには空を設定)"
 
 #: ../build/bin/preferences_gen.h:4059 ../src/views/darkroom.c:108
 msgid "darkroom"
