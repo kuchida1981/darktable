@@ -59,10 +59,8 @@ msgstr ""
 #: ../build/bin/preferences_gen.h:7757 ../build/bin/preferences_gen.h:7793
 #: ../build/bin/preferences_gen.h:7853 ../build/bin/preferences_gen.h:7899
 #: ../build/bin/preferences_gen.h:7959
-#, fuzzy
-#| msgid "this image has not been indexed yet."
 msgid "this setting has been modified"
-msgstr "この画像は、まだインデックスが作成されていません"
+msgstr "この設定は変更されています"
 
 #: ../build/bin/preferences_gen.h:3490 ../src/libs/tools/lighttable.c:68
 #: ../src/views/lighttable.c:88
@@ -634,10 +632,8 @@ msgstr ""
 "ジュールを自動的に展開または折りたたむことができます"
 
 #: ../build/bin/preferences_gen.h:4808
-#, fuzzy
-#| msgid "scroll to darkroom modules when expanded/collapsed"
 msgid "scroll to processing modules when expanded/collapsed"
-msgstr "ダークルームのモジュールの展開/折りたたみ時にスクロースさせます"
+msgstr "処理モジュールの展開/折りたたみ時にスクロールする"
 
 #: ../build/bin/preferences_gen.h:4844
 msgid "white balance slider colors"
@@ -1194,12 +1190,12 @@ msgid "minimum amount of memory (in MB) for a single buffer in tiling"
 msgstr "タイリング用バッファのメモリの最小量 (MB単位)"
 
 #: ../build/bin/preferences_gen.h:6387
-#, fuzzy
-#| msgid "minimum amount of memory (in MB) for a single buffer in tiling"
 msgid ""
 "minimum amount of memory (in MB) that tiling should take for a single image "
 "buffer (needs a restart)."
-msgstr "タイリング用バッファのメモリの最小量 (MB単位)"
+msgstr ""
+"単一のイメージバッファーに対してタイリングに必要な最小メモリ量（MB単位）（再"
+"起動が必要）"
 
 #: ../build/bin/preferences_gen.h:6409
 msgid "activate OpenCL support"
@@ -10718,7 +10714,7 @@ msgstr ""
 
 #: ../src/iop/bilateral.cc:73
 msgid "surface blur"
-msgstr ""
+msgstr "サーフェス ブラー"
 
 #: ../src/iop/bilateral.cc:78
 msgid "denoise (bilateral filter)"
@@ -10943,10 +10939,8 @@ msgstr "画像からフレームラインカラーを抽出"
 
 #. make sure you put all your translatable strings into _() !
 #: ../src/iop/cacorrect.c:82
-#, fuzzy
-#| msgid "chromatic aberrations"
 msgid "raw chromatic aberrations"
-msgstr "色収差"
+msgstr "RAW画像 色収差"
 
 #: ../src/iop/cacorrect.c:87
 #, fuzzy
@@ -11091,10 +11085,8 @@ msgid ""
 msgstr ""
 
 #: ../src/iop/censorize.c:77
-#, fuzzy
-#| msgid "colorize"
 msgid "censorize"
-msgstr "カラーライズ"
+msgstr "センサライズ"
 
 #: ../src/iop/censorize.c:82
 msgid "censorize license plates and body parts for privacy"
@@ -11270,10 +11262,8 @@ msgid "B/W Kodak Tri-X 400"
 msgstr "B/W Kodak Tri-X 400"
 
 #: ../src/iop/channelmixerrgb.c:195
-#, fuzzy
-#| msgid "color correction"
 msgid "color calibration"
-msgstr "カラー調整"
+msgstr "カラー キャリブレーション"
 
 #: ../src/iop/channelmixerrgb.c:200
 #, fuzzy
@@ -12200,10 +12190,8 @@ msgid "optimize the RGB curves to remove color casts"
 msgstr "RGBカーブを最適化して色かぶりを補正します"
 
 #: ../src/iop/colorbalancergb.c:160
-#, fuzzy
-#| msgid "color balance"
 msgid "color balance rgb"
-msgstr "カラー バランス"
+msgstr "カラー バランス RGB"
 
 #: ../src/iop/colorbalancergb.c:165
 msgid ""
@@ -13065,10 +13053,8 @@ msgstr ""
 "exp)\n"
 
 #: ../src/iop/crop.c:132
-#, fuzzy
-#| msgid "crop x"
 msgid "crop"
-msgstr "切り抜き x"
+msgstr "クロップ"
 
 #: ../src/iop/crop.c:137
 #, fuzzy
@@ -15396,10 +15382,8 @@ msgid "how much to keep highlights"
 msgstr "ハイライトに残す量"
 
 #: ../src/iop/negadoctor.c:145
-#, fuzzy
-#| msgid "factor"
 msgid "negadoctor"
-msgstr "ファクター"
+msgstr "ネガドクター"
 
 #: ../src/iop/negadoctor.c:150
 msgid "film|invert|negative|scan"
@@ -15625,10 +15609,8 @@ msgid "toggle on or off the color controls"
 msgstr "パネルの折りたたみの切り替え"
 
 #: ../src/iop/nlmeans.c:88
-#, fuzzy
-#| msgid "chroma denoise"
 msgid "astrophoto denoise"
-msgstr "カラーノイズ低減"
+msgstr "天体写真 ノイズ除去"
 
 #: ../src/iop/nlmeans.c:93
 msgid "denoise (non-local means)"
@@ -16338,8 +16320,6 @@ msgid "the mix of effect"
 msgstr "効果を合成します"
 
 #: ../src/iop/splittoning.c:81
-#, fuzzy
-#| msgid "split toning"
 msgid "split-toning"
 msgstr "スプリット トーン"
 
@@ -19826,17 +19806,12 @@ msgid ""
 msgstr ""
 
 #: ../src/libs/modulegroups.c:42
-#, fuzzy
-#| msgid "remove default"
 msgid "modules: default"
-msgstr "デフォルトを除外します"
+msgstr "モジュール: デフォルト"
 
 #: ../src/libs/modulegroups.c:45
-#, fuzzy
-#| msgctxt "blendmode"
-#| msgid "normal (deprecated)"
 msgid "modules: deprecated"
-msgstr "標準 (非推奨)"
+msgstr "モジュール: 非推奨"
 
 #: ../src/libs/modulegroups.c:48
 msgid "last modified layout"
@@ -19883,11 +19858,9 @@ msgid "base"
 msgstr ""
 
 #: ../src/libs/modulegroups.c:1608
-#, fuzzy
-#| msgid "keystone"
 msgctxt "modulegroup"
 msgid "tone"
-msgstr "キーストーン"
+msgstr ""
 
 #: ../src/libs/modulegroups.c:1616 ../src/libs/modulegroups.c:1719
 #: ../src/libs/modulegroups.c:1766
@@ -19914,57 +19887,46 @@ msgid "effect"
 msgstr "効果"
 
 #: ../src/libs/modulegroups.c:1666
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "modules"
 msgid "modules: all"
-msgstr "モジュール"
+msgstr "モジュール: すべて"
 
 #: ../src/libs/modulegroups.c:1684 ../src/libs/modulegroups.c:1833
-#, fuzzy
-#| msgid "gradient range"
 msgctxt "modulegroup"
 msgid "grading"
-msgstr "グラデーション・レンジ"
+msgstr "グレーディング"
 
 #: ../src/libs/modulegroups.c:1692 ../src/libs/modulegroups.c:1852
 #: ../src/libs/modulegroups.c:2421
-#, fuzzy
-#| msgid "effect"
 msgctxt "modulegroup"
 msgid "effects"
 msgstr "効果"
 
 #: ../src/libs/modulegroups.c:1700
 msgid "workflow: beginner"
-msgstr ""
+msgstr "ワークフロー: 初心者"
 
 #: ../src/libs/modulegroups.c:1750
 msgid "workflow: display-referred"
-msgstr ""
+msgstr "ワークフロー: 表示参照"
 
 #: ../src/libs/modulegroups.c:1793
 msgid "workflow: scene-referred"
-msgstr ""
+msgstr "ワークフロー: シーン参照"
 
 #: ../src/libs/modulegroups.c:1799
 msgctxt "modulegroup"
 msgid "technical"
-msgstr ""
+msgstr "テクニカル"
 
 #: ../src/libs/modulegroups.c:1875
-#, fuzzy
-#| msgid "search module"
 msgid "search only"
-msgstr "検索モジュール"
+msgstr "検索用"
 
 #: ../src/libs/modulegroups.c:1881 ../src/libs/modulegroups.c:2187
 #: ../src/libs/modulegroups.c:2682
-#, fuzzy
-#| msgid "unused/deprecated"
 msgctxt "modulegroup"
 msgid "deprecated"
-msgstr "未使用/非推奨"
+msgstr "非推奨"
 
 #: ../src/libs/modulegroups.c:1902
 #, fuzzy
@@ -19996,23 +19958,19 @@ msgstr "他のモジュール"
 #. does it belong to recommended modules ?
 #: ../src/libs/modulegroups.c:2412
 msgid "base"
-msgstr ""
+msgstr "ベース"
 
 #: ../src/libs/modulegroups.c:2415
-#, fuzzy
-#| msgid "keystone"
 msgid "tone"
-msgstr "キーストーン"
+msgstr "トーン"
 
 #: ../src/libs/modulegroups.c:2418
 msgid "technical"
-msgstr ""
+msgstr "テクニカル"
 
 #: ../src/libs/modulegroups.c:2419
-#, fuzzy
-#| msgid "gradient range"
 msgid "grading"
-msgstr "グラデーション・レンジ"
+msgstr "グレーディング"
 
 #: ../src/libs/modulegroups.c:2425 ../src/libs/modulegroups.c:2433
 #, fuzzy
@@ -20049,7 +20007,7 @@ msgstr "この画像を分析します"
 
 #: ../src/libs/modulegroups.c:2785
 msgid "quick access panel"
-msgstr ""
+msgstr "クイックアクセスパネル"
 
 #: ../src/libs/modulegroups.c:2794
 msgid "show only active modules"
