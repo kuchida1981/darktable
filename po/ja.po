@@ -8851,27 +8851,27 @@ msgstr "ユーザーインターフェイスのテーマを設定します"
 
 #: ../src/gui/preferences.c:376
 msgid "prefer performance over quality"
-msgstr ""
+msgstr "品質よりパフォーマンスを優先する"
 
 #: ../src/gui/preferences.c:384
 msgid ""
 "if switched on, thumbnails and previews are rendered at lower quality but 4 "
 "times faster"
 msgstr ""
+"オンにすると、サムネイルとプレビューは低品質でレンダリングされますが、4倍速く"
+"なります。"
 
 #: ../src/gui/preferences.c:398 ../src/gui/preferences.c:405
 msgid "use system font size"
-msgstr ""
+msgstr "システムのフォントサイズを使用する"
 
 #: ../src/gui/preferences.c:414 ../src/gui/preferences.c:421
-#, fuzzy
-#| msgid "shift white point"
 msgid "font size in points"
-msgstr "ホワイトポイントをずらします"
+msgstr "フォントサイズ (ポイント)"
 
 #: ../src/gui/preferences.c:426
 msgid "GUI controls and text DPI"
-msgstr ""
+msgstr "GUIとテキストのDPI"
 
 #: ../src/gui/preferences.c:433
 msgid ""
@@ -8881,24 +8881,31 @@ msgid ""
 "default is 96 DPI on most systems.\n"
 "(needs a restart)."
 msgstr ""
+"グローバルGUI解像度を調整して、コントロール、ボタン、ラベルなどを再スケーリン"
+"グします。\n"
+"拡大されたGUIの場合は増加し、ウィンドウにより多くのコンテンツを収めるために減"
+"少します。\n"
+"システム定義のグローバル解像度を使用するには、-1に設定します。\n"
+"ほとんどのシステムでは、デフォルトは96DPIです。\n"
+"（再起動が必要です）"
 
 #. checkbox to allow user to modify theme with user.css
 #: ../src/gui/preferences.c:442
 msgid "modify selected theme with CSS tweaks below"
-msgstr ""
+msgstr "以下のCSSを使用して, 選択したテーマを変更する"
 
 #: ../src/gui/preferences.c:450
 msgid "modify theme with CSS keyed below (saved to user.css)"
-msgstr ""
+msgstr "CSSでテーマを変更します (user.css に保存されます)"
 
 #: ../src/gui/preferences.c:470
 msgctxt "usercss"
 msgid "save CSS and apply"
-msgstr ""
+msgstr "CSSを保存し, 適用する"
 
 #: ../src/gui/preferences.c:476
 msgid "click to save and apply the CSS tweaks entered in this editor"
-msgstr ""
+msgstr "クリックして保存し、入力されたCSSを適用します。"
 
 #. load default text with some pointers
 #: ../src/gui/preferences.c:494
