@@ -22502,14 +22502,12 @@ msgstr ""
 #: ../src/libs/tools/global_toolbox.c:491
 msgid "overlays block on mouse hover during (s) "
 msgstr ""
+"指定した秒数の間, マウスオーバー時にサムネイル・オーバーレイを表示します"
 
 #: ../src/libs/tools/global_toolbox.c:465
 #: ../src/libs/tools/global_toolbox.c:498
-#, fuzzy
-#| msgctxt "preferences"
-#| msgid "show both"
 msgid "show tooltip"
-msgstr "両方 表示"
+msgstr "ツールチップを表示する"
 
 #: ../src/libs/tools/global_toolbox.c:509
 msgid "enable this, then click on a control element to see its online help"
@@ -22628,34 +22626,27 @@ msgstr ""
 
 #: ../src/libs/tools/lighttable.c:119
 msgid "click to enter full preview layout."
-msgstr ""
+msgstr "プレビュー表示へ切り替え"
 
 #: ../src/libs/tools/lighttable.c:122
 msgid "click to enter culling layout in fixed mode."
-msgstr ""
+msgstr "カリング レイアウト 固定表示 へ切り替え"
 
 #: ../src/libs/tools/lighttable.c:124 ../src/libs/tools/lighttable.c:129
-#, fuzzy
-#| msgid "click to edit nodes"
 msgid "click to exit culling layout."
-msgstr "クリックでノード編集"
+msgstr "カリング レイアウト を終了する"
 
 #: ../src/libs/tools/lighttable.c:127
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "toggle culling dynamic mode"
 msgid "click to enter culling layout in dynamic mode."
 msgstr "カリング ダイナミックモードの切り替え"
 
 #: ../src/libs/tools/lighttable.c:260
 msgid "click to enter filemanager layout."
-msgstr ""
+msgstr "ファイルマネージャー レイアウト へ切り替え"
 
 #: ../src/libs/tools/lighttable.c:267
-#, fuzzy
-#| msgid "zoomable light table"
 msgid "click to enter zoomable lighttable layout."
-msgstr "ズーム可能なライトテーブル"
+msgstr "ズーム可能なライトテーブル レイアウト へ切り替え"
 
 #. view accels
 #: ../src/libs/tools/lighttable.c:562
