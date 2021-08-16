@@ -1873,10 +1873,8 @@ msgstr ""
 "フラグを使用して、すべてのJPEGファイルを無視することができます"
 
 #: ../build/bin/conf_gen.h:773
-#, fuzzy
-#| msgid "apply metadata on import"
 msgid "apply metadata"
-msgstr "インポートにメタデータを適用"
+msgstr "次のメタデータを適用"
 
 #: ../build/bin/conf_gen.h:774
 msgid "apply some metadata to all newly imported images."
@@ -1915,10 +1913,8 @@ msgid "import tags from xmp"
 msgstr "カメラから画像をインポートします"
 
 #: ../build/bin/conf_gen.h:835
-#, fuzzy
-#| msgid "initial import rating"
 msgid "initial rating"
-msgstr "インポート時の評価の初期設定"
+msgstr "評価 初期値"
 
 #: ../build/bin/conf_gen.h:836
 msgid "initial star rating for all images when importing a filmroll"
@@ -1926,13 +1922,15 @@ msgstr "フィルムロールをインポートする時の初期設定、評価
 
 #: ../build/bin/conf_gen.h:841
 msgid "ignore exif rating"
-msgstr ""
+msgstr "EXIF 評価を無視"
 
 #: ../build/bin/conf_gen.h:842
 msgid ""
 "ignore exif rating. if not set and exif rating is found, it overrides "
 "'initial rating'"
 msgstr ""
+"exif評価を無視します。これが設定されておらず、exifレーティングが見つかった場"
+"合、「初期レーティング」が上書きされます"
 
 #: ../build/bin/conf_gen.h:847
 #, fuzzy
@@ -5483,7 +5481,7 @@ msgstr "著作権"
 
 #: ../src/common/metadata.c:51
 msgid "notes"
-msgstr ""
+msgstr "ノート"
 
 #: ../src/common/metadata.c:52
 #, fuzzy
@@ -8805,10 +8803,8 @@ msgstr "変更されていない画像の履歴をコピーすることはでき
 
 #. grid headers
 #: ../src/gui/import_metadata.c:410
-#, fuzzy
-#| msgid "metadata editor"
 msgid "metadata presets"
-msgstr "メタデータ エディタ"
+msgstr "メタデータ"
 
 #: ../src/gui/import_metadata.c:413
 msgid ""
@@ -8831,10 +8827,8 @@ msgstr ""
 
 #. tags
 #: ../src/gui/import_metadata.c:463
-#, fuzzy
-#| msgid "presets"
 msgid "tag presets"
-msgstr "プリセット"
+msgstr "タグ"
 
 #: ../src/gui/import_metadata.c:477
 msgid "comma separated list of tags"
@@ -17458,10 +17452,8 @@ msgid "WB"
 msgstr "WB"
 
 #: ../src/libs/collect.c:120
-#, fuzzy
-#| msgid "corrections"
 msgid "collections"
-msgstr "補正"
+msgstr "コレクション"
 
 #: ../src/libs/collect.c:284
 msgid "today"
@@ -19264,20 +19256,15 @@ msgstr "先にカメラから画像のサムネイルを読み込んでいます
 
 #: ../src/libs/import.c:1947
 msgid "add to library..."
-msgstr ""
+msgstr "ライブラリへ追加する..."
 
 #: ../src/libs/import.c:1948
-#, fuzzy
-#| msgid "add existing shape"
 msgid "add existing images to the library"
-msgstr "既存シェイプを追加"
+msgstr "既存の画像をライブラリへ追加する"
 
 #: ../src/libs/import.c:1955
-#, fuzzy
-#| msgctxt "preferences"
-#| msgid "import..."
 msgid "copy & import..."
-msgstr "インポート..."
+msgstr "コピーしてインポート..."
 
 #: ../src/libs/import.c:1956
 msgid ""
@@ -19285,13 +19272,13 @@ msgid ""
 "patterns can be defined to rename the images and specify the destination "
 "folders"
 msgstr ""
+"ライブラリに追加する前に、画像をコピーし、オプションで名前を変更します\n"
+"パターンを定義して、画像の名前を変更し、保存するフォルダーを指定できます。"
 
 #. collapsible section
 #: ../src/libs/import.c:1978
-#, fuzzy
-#| msgid "reset parameters"
 msgid "parameters"
-msgstr "パラメータをリセット"
+msgstr "パラメータ"
 
 #: ../src/libs/ioporder.c:149
 #, fuzzy
