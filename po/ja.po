@@ -425,20 +425,14 @@ msgstr ""
 "単に編集できますが、精度の低いコントロールになります"
 
 #: ../build/bin/preferences_gen.h:4227
-#, fuzzy
-#| msgid "pattern for the image infos line"
 msgid "pattern for the image information line"
-msgstr "画像情報の形式"
+msgstr "画像情報の表示内容"
 
 #: ../build/bin/preferences_gen.h:4248
-#, fuzzy
-#| msgid "see manual to know all the tags you can use."
 msgid "see manual for a list of the tags you can use."
 msgstr "使用できるすべてのタグについては、マニュアルを参照してください"
 
 #: ../build/bin/preferences_gen.h:4270
-#, fuzzy
-#| msgid "position of the image infos line"
 msgid "position of the image information line"
 msgstr "画像情報の位置"
 
@@ -500,12 +494,9 @@ msgstr "つねに バイリニア (高速)"
 
 #: ../build/bin/preferences_gen.h:4441 ../build/bin/preferences_gen.h:4465
 #: ../build/bin/conf_gen.h:1893
-#, fuzzy
-#| msgctxt "preferences"
-#| msgid "at most PPG (reasonable)"
 msgctxt "preferences"
 msgid "at most RCD (reasonable)"
-msgstr "ほぼ PPG (妥当)"
+msgstr "せいぜいRCD (合理的)"
 
 #: ../build/bin/preferences_gen.h:4446 ../build/bin/conf_gen.h:1894
 msgctxt "preferences"
@@ -513,12 +504,6 @@ msgid "full (possibly slow)"
 msgstr "完全 (おそらく低速)"
 
 #: ../build/bin/preferences_gen.h:4468
-#, fuzzy
-#| msgid ""
-#| "interpolation when not viewing 1:1 in darkroom mode: bilinear is fastest, "
-#| "but not as sharp. middle ground is using PPG + interpolation modes "
-#| "specified below, full will use exactly the settings for full-size export. "
-#| "X-Trans sensors use VNG rather than PPG as middle ground."
 msgid ""
 "interpolation when not viewing 1:1 in darkroom mode: bilinear is fastest, "
 "but not as sharp. middle ground is using RCD + interpolation modes specified "
@@ -527,19 +512,18 @@ msgid ""
 "as middle ground."
 msgstr ""
 "ダークルーム・モードで等倍表示ではない場合の画像補間:\n"
-" バイリニア は最速ですが鮮明ではありません\n"
-" ほぼPPG はPPGと下記で指定された補間モード\n"
-" 完全 はフルサイズ・エクスポート用設定をそのまま使用します。 X-Transセンサー"
-"はVNGではなくほぼPPGを使用します"
+"バイリニアは最速ですが鮮明ではありません\n"
+"「せいぜいRCD」は、「ピクセル補間」オプション（処理タブ）で指定されたRCD +補"
+"間モードを使用しています\n"
+"「完全」は、フルサイズ・エクスポートの設定を正確に使用します。 X-Transセン"
+"サーは、VNGではなく「せいぜいRCD」を使用します"
 
 #: ../build/bin/preferences_gen.h:4490
 msgid "reduce resolution of preview image"
-msgstr ""
+msgstr "プレビュー画像の解像度を下げる"
 
 #: ../build/bin/preferences_gen.h:4501 ../build/bin/preferences_gen.h:4535
 #: ../build/bin/conf_gen.h:1902
-#, fuzzy
-#| msgid "original"
 msgctxt "preferences"
 msgid "original"
 msgstr "オリジナル"
@@ -547,36 +531,37 @@ msgstr "オリジナル"
 #: ../build/bin/preferences_gen.h:4506 ../build/bin/conf_gen.h:1903
 msgctxt "preferences"
 msgid "to 1/2"
-msgstr ""
+msgstr "1/2"
 
 #: ../build/bin/preferences_gen.h:4511 ../build/bin/conf_gen.h:1904
 msgctxt "preferences"
 msgid "to 1/3"
-msgstr ""
+msgstr "1/3"
 
 #: ../build/bin/preferences_gen.h:4516 ../build/bin/conf_gen.h:1905
 msgctxt "preferences"
 msgid "to 1/4"
-msgstr ""
+msgstr "1/4"
 
 #: ../build/bin/preferences_gen.h:4538
 msgid "decrease to speed up preview rendering, may hinder accurate masking"
 msgstr ""
+"プレビューレンダリングを高速化するために小さくすると、正確なマスキングが妨げ"
+"られる可能性があります"
 
 #: ../build/bin/preferences_gen.h:4560
 msgid "show loading screen between images"
-msgstr ""
+msgstr "画像間のロード画面を表示します"
 
 #: ../build/bin/preferences_gen.h:4574
 msgid ""
 "show gray loading screen when navigating between images in the darkroom\n"
 "disable to just show a toast message"
 msgstr ""
+"ダークルームで画像間を移動すると、灰色のロード画面が表示されます。\n"
+"トーストメッセージのみを表示するには無効にします。"
 
 #: ../build/bin/preferences_gen.h:4584
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "modules"
 msgid "modules"
 msgstr "モジュール"
 
@@ -591,9 +576,6 @@ msgid "false color"
 msgstr "偽色"
 
 #: ../build/bin/preferences_gen.h:4620 ../build/bin/conf_gen.h:1090
-#, fuzzy
-#| msgctxt "preferences"
-#| msgid "grey scale"
 msgctxt "preferences"
 msgid "gray scale"
 msgstr "グレイスケール"
@@ -606,22 +588,20 @@ msgstr ""
 "パラメトリックマスク機能でカラーチャンネルがどのように表示されるか定義します"
 
 #: ../build/bin/preferences_gen.h:4664
-#, fuzzy
-#| msgid "deleting preset for obsolete module"
 msgid "hide built-in presets for processing modules"
-msgstr "使われていないモジュールの設定値を削除しています"
+msgstr "処理モジュールの組み込みプリセットを非表示にする"
 
 #: ../build/bin/preferences_gen.h:4678
 msgid ""
 "hides built-in presets of processing modules in both presets and favourites "
 "menu."
 msgstr ""
+"プリセットメニュー/お気に入りメニューの両方で, 処理モジュールの組み込みプリ"
+"セットを非表示にします."
 
 #: ../build/bin/preferences_gen.h:4700
-#, fuzzy
-#| msgid "expand a single darkroom module at a time"
 msgid "expand a single processing module at a time"
-msgstr "ダークルームのモジュールを同時に一つだけ展開します"
+msgstr "一度にひとつの処理モジュールを展開する"
 
 #: ../build/bin/preferences_gen.h:4714
 msgid "this option toggles the behavior of shift clicking in darkroom mode"
@@ -630,13 +610,15 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:4736
 msgid "only collapse modules in current group"
-msgstr ""
+msgstr "現在のグループのモジュールのみを折りたたむ"
 
 #: ../build/bin/preferences_gen.h:4750
 msgid ""
 "if only expanding a single module at a time, only collapse other modules in "
 "the current group - ignore modules in other groups"
 msgstr ""
+"一度に1つのモジュールのみを展開する場合は、現在のグループの他のモジュールのみ"
+"を折りたたみます-他のグループのモジュールは無視します"
 
 #: ../build/bin/preferences_gen.h:4772
 msgid "expand the module when it is activated, and collapse it when disabled"
@@ -658,32 +640,24 @@ msgid "scroll to processing modules when expanded/collapsed"
 msgstr "ダークルームのモジュールの展開/折りたたみ時にスクロースさせます"
 
 #: ../build/bin/preferences_gen.h:4844
-#, fuzzy
-#| msgid "white balance disabled for camera"
 msgid "white balance slider colors"
-msgstr "カメラのホワイトバランスが無効になります"
+msgstr "ホワイトバランス スライダーの色"
 
 #: ../build/bin/preferences_gen.h:4855 ../build/bin/preferences_gen.h:4884
 #: ../build/bin/conf_gen.h:2716
-#, fuzzy
-#| msgid "color"
 msgctxt "preferences"
 msgid "no color"
-msgstr "カラー"
+msgstr "カラーなし"
 
 #: ../build/bin/preferences_gen.h:4860 ../build/bin/conf_gen.h:2717
-#, fuzzy
-#| msgid "fill color: "
 msgctxt "preferences"
 msgid "illuminant color"
-msgstr "塗りつぶしカラー: "
+msgstr "照明色"
 
 #: ../build/bin/preferences_gen.h:4865 ../build/bin/conf_gen.h:2718
-#, fuzzy
-#| msgid "select the saturation"
 msgctxt "preferences"
 msgid "effect emulation"
-msgstr "彩度を選択します"
+msgstr "エフェクト エミュレーション"
 
 #: ../build/bin/preferences_gen.h:4887
 msgid ""
@@ -693,15 +667,17 @@ msgid ""
 "in 'effect emulation' slider colors represent the effect the adjustment "
 "would have on the scene"
 msgstr ""
+"色温度調整の視覚的表示。\n"
+"「照明色」モードでは、スライダーの色は光源の色を表します。\n"
+"「エフェクトエミュレーション」のスライダーの色は、調整がシーンに与える影響を"
+"表します。"
 
 #: ../build/bin/preferences_gen.h:4909
 msgid "colorbalance slider block layout"
-msgstr ""
+msgstr "カラーバランス スライダー  レイアウト"
 
 #: ../build/bin/preferences_gen.h:4920 ../build/bin/preferences_gen.h:4949
 #: ../build/bin/conf_gen.h:2752
-#, fuzzy
-#| msgid "list"
 msgctxt "preferences"
 msgid "list"
 msgstr "リスト"
@@ -709,12 +685,12 @@ msgstr "リスト"
 #: ../build/bin/preferences_gen.h:4925 ../build/bin/conf_gen.h:2753
 msgctxt "preferences"
 msgid "tabs"
-msgstr ""
+msgstr "タブ"
 
 #: ../build/bin/preferences_gen.h:4930 ../build/bin/conf_gen.h:2754
 msgctxt "preferences"
 msgid "columns"
-msgstr ""
+msgstr "列"
 
 #: ../build/bin/preferences_gen.h:4952
 msgid ""
@@ -724,24 +700,24 @@ msgid ""
 "columns - the blocks of sliders are shown next to each other (in narrow "
 "columns)"
 msgstr ""
+"リフト、ガンマ、ゲインのスライダーブロックを整理する方法を選択します。\n"
+"リスト-すべてのスライダーが1つの長いリスト（ヘッダー付き）に表示されます。\n"
+"タブ-タブを使用してスライダーのブロックを切り替えます。\n"
+"列-スライダーのブロックが隣り合って表示されます（狭い列で）"
 
 #: ../build/bin/preferences_gen.h:4974
 msgid "show right-side buttons in processing module headers"
-msgstr ""
+msgstr "処理モジュールヘッダーに右側のボタンを表示する"
 
 #: ../build/bin/preferences_gen.h:4990 ../build/bin/conf_gen.h:2763
-#, fuzzy
-#| msgid "relative"
 msgctxt "preferences"
 msgid "active"
-msgstr "相対"
+msgstr "アクティブ"
 
 #: ../build/bin/preferences_gen.h:4995 ../build/bin/conf_gen.h:2764
-#, fuzzy
-#| msgid "dpi"
 msgctxt "preferences"
 msgid "dim"
-msgstr "dpi"
+msgstr "薄暗い"
 
 #: ../build/bin/preferences_gen.h:5000 ../build/bin/preferences_gen.h:7459
 #: ../build/bin/preferences_gen.h:7495 ../build/bin/conf_gen.h:2181
@@ -751,30 +727,24 @@ msgid "auto"
 msgstr "自動"
 
 #: ../build/bin/preferences_gen.h:5005 ../build/bin/conf_gen.h:2766
-#, fuzzy
-#| msgid "faded"
 msgctxt "preferences"
 msgid "fade"
-msgstr "退色"
+msgstr "フェード"
 
 #: ../build/bin/preferences_gen.h:5010 ../build/bin/conf_gen.h:2767
-#, fuzzy
-#| msgid "filter"
 msgctxt "preferences"
 msgid "fit"
-msgstr "フィルタ"
+msgstr "フィット"
 
 #: ../build/bin/preferences_gen.h:5015 ../build/bin/conf_gen.h:2768
-#, fuzzy
-#| msgid "smooth"
 msgctxt "preferences"
 msgid "smooth"
-msgstr "平滑化"
+msgstr "スムーズ"
 
 #: ../build/bin/preferences_gen.h:5020 ../build/bin/conf_gen.h:2769
 msgctxt "preferences"
 msgid "glide"
-msgstr ""
+msgstr "グライド"
 
 #: ../build/bin/preferences_gen.h:5042
 msgid ""
@@ -789,16 +759,28 @@ msgid ""
 "smooth - fade out all buttons in one header simultaneously,\n"
 "glide - gradually hide individual buttons as needed"
 msgstr ""
+"マウスがモジュール上にない場合、マルチインスタンス、リセット、およびプリセッ"
+"トボタンを非表示にすることができます。\n"
+"常に-常にすべてのボタンを表示しますn\n"
+"アクティブ-マウスがモジュール上にある場合にのみボタンを表示します。\n"
+"薄暗い-マウスを離すとボタンが暗くなります。\n"
+"自動-パネルが狭い場合はボタンを非表示にします。\n"
+"フェード-パネルが狭くなると、すべてのボタンがフェードアウトします。\n"
+"フィット-モジュール名が収まらない場合は、すべてのボタンを非表示にします。\n"
+"スムーズ-1つのヘッダーのすべてのボタンを同時にフェードアウトします。\n"
+"グライド-必要に応じて個々のボタンを徐々に非表示にします"
 
 #: ../build/bin/preferences_gen.h:5064
 msgid "show mask indicator in module headers"
-msgstr ""
+msgstr "モジュールヘッダーにマスクインジケーターを表示"
 
 #: ../build/bin/preferences_gen.h:5078
 msgid ""
 "if enabled, an icon will be shown in the header of any processing modules "
 "that have a mask applied"
 msgstr ""
+"有効にすると、マスクが適用されている処理モジュールのヘッダーにアイコンが表示"
+"されます。"
 
 #: ../build/bin/preferences_gen.h:5106
 #, fuzzy
