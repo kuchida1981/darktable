@@ -1728,16 +1728,16 @@ msgid "sub directory naming pattern"
 msgstr "サブ・ディレクトリ名パターン"
 
 #: ../build/bin/preferences_gen.h:7669
-#, fuzzy
-#| msgid "original image"
 msgid "keep original filename"
-msgstr "元の画像"
+msgstr "元のファイル名を維持する"
 
 #: ../build/bin/preferences_gen.h:7683
 msgid ""
 "keep original filename instead of a pattern while importing from camera or "
 "card"
 msgstr ""
+"カメラまたはSDカードからインポートするときは、パターンではなく元のファイル名"
+"を保持してください。"
 
 #: ../build/bin/preferences_gen.h:7705
 msgid "file naming pattern"
