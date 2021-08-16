@@ -58,10 +58,8 @@ msgstr ""
 #: ../build/bin/preferences_gen.h:7622 ../build/bin/preferences_gen.h:7658
 #: ../build/bin/preferences_gen.h:7718 ../build/bin/preferences_gen.h:7764
 #: ../build/bin/preferences_gen.h:7824
-#, fuzzy
-#| msgid "this image has not been indexed yet."
 msgid "this setting has been modified"
-msgstr "この画像は、まだインデックスが作成されていません"
+msgstr "設定が変更されました"
 
 #: ../build/bin/preferences_gen.h:3425 ../src/libs/tools/lighttable.c:68
 #: ../src/views/lighttable.c:88
@@ -74,10 +72,8 @@ msgid "general"
 msgstr "一般"
 
 #: ../build/bin/preferences_gen.h:3448
-#, fuzzy
-#| msgid "deleting preset for obsolete module"
 msgid "hide built-in presets for utility modules"
-msgstr "使われていないモジュールの設定値を削除しています"
+msgstr "ユーティリティモジュールの組み込みプリセットを非表示にします"
 
 #: ../build/bin/preferences_gen.h:3459 ../build/bin/preferences_gen.h:3495
 #: ../build/bin/preferences_gen.h:3531 ../build/bin/preferences_gen.h:3567
@@ -145,10 +141,10 @@ msgstr "FALSE"
 #: ../build/bin/preferences_gen.h:3462
 msgid "hides built-in presets of utility modules in presets menu."
 msgstr ""
+"プリセットメニューのユーティリティモジュールの組み込みプリセットを非表示にし"
+"ます。"
 
 #: ../build/bin/preferences_gen.h:3484
-#, fuzzy
-#| msgid "use single-click in the collect panel"
 msgid "use single-click in the collections module"
 msgstr "コレクションパネルでシングルクリックを使用"
 
@@ -231,8 +227,6 @@ msgid "defines whether scrollbars should be displayed"
 msgstr "スクロールバーを表示する場所を定義します"
 
 #: ../build/bin/preferences_gen.h:3652
-#, fuzzy
-#| msgid "thumbnail"
 msgid "thumbnails"
 msgstr "サムネイル"
 
@@ -583,9 +577,6 @@ msgid ""
 msgstr ""
 
 #: ../build/bin/preferences_gen.h:4519
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "modules"
 msgid "modules"
 msgstr "モジュール"
 
@@ -5743,7 +5734,7 @@ msgstr "著作権"
 
 #: ../src/common/metadata.c:51
 msgid "notes"
-msgstr ""
+msgstr "ノート"
 
 #: ../src/common/metadata.c:52
 #, fuzzy
@@ -9584,10 +9575,8 @@ msgstr "変更されていない画像の履歴をコピーすることはでき
 
 #. grid headers
 #: ../src/gui/import_metadata.c:409
-#, fuzzy
-#| msgid "metadata editor"
 msgid "metadata presets"
-msgstr "メタデータ エディタ"
+msgstr "メタデータ  プリセット"
 
 #: ../src/gui/import_metadata.c:412
 msgid ""
@@ -9610,10 +9599,8 @@ msgstr ""
 
 #. tags
 #: ../src/gui/import_metadata.c:461
-#, fuzzy
-#| msgid "presets"
 msgid "tag presets"
-msgstr "プリセット"
+msgstr "タグ プリセット"
 
 #: ../src/gui/import_metadata.c:475
 msgid "comma separated list of tags"
@@ -17299,7 +17286,7 @@ msgstr ""
 
 #: ../src/iop/rgblevels.c:987
 msgid "grey"
-msgstr ""
+msgstr "グレイ"
 
 #: ../src/iop/rgblevels.c:1071
 msgid ""
@@ -22485,39 +22472,31 @@ msgstr "オーバーレイ・モード"
 
 #: ../src/libs/tools/global_toolbox.c:434
 #: ../src/libs/tools/global_toolbox.c:478
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "show overlays"
 msgid "no overlays"
-msgstr "オーバーレイ 表示"
+msgstr "サムネイル・オーバーレイ 表示しない"
 
 #: ../src/libs/tools/global_toolbox.c:438
-#, fuzzy
-#| msgid "overlay mode"
 msgid "overlays on mouse hover"
-msgstr "オーバーレイ・モード"
+msgstr "マウスホバー時にサムネイル・オーバーレイ表示する"
 
 #: ../src/libs/tools/global_toolbox.c:442
 msgid "extended overlays on mouse hover"
-msgstr ""
+msgstr "マウスホバー時に拡張サムネイル・オーバーレイ表示する"
 
 #: ../src/libs/tools/global_toolbox.c:445
 #: ../src/libs/tools/global_toolbox.c:482
-#, fuzzy
-#| msgid "hide image overlays"
 msgid "permanent overlays"
-msgstr "オーバーレイ画像の非表示"
+msgstr "サムネイル・オーバーレイを有効にします"
 
 #: ../src/libs/tools/global_toolbox.c:449
 #: ../src/libs/tools/global_toolbox.c:486
-#, fuzzy
-#| msgid "enable extended thumb overlay"
 msgid "permanent extended overlays"
 msgstr "拡張サムネイル・オーバーレイを有効にします"
 
 #: ../src/libs/tools/global_toolbox.c:453
 msgid "permanent overlays extended on mouse hover"
 msgstr ""
+"サムネイル・オーバーレイを有効にし, マウスオーバー時に拡張情報を表示します"
 
 #: ../src/libs/tools/global_toolbox.c:458
 #: ../src/libs/tools/global_toolbox.c:491
