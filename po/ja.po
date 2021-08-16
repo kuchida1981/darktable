@@ -783,15 +783,10 @@ msgstr ""
 "されます。"
 
 #: ../build/bin/preferences_gen.h:5106
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "tethering view"
 msgid "other views"
-msgstr "テザリングを表示"
+msgstr "その他のビュー"
 
 #: ../build/bin/preferences_gen.h:5109
-#, fuzzy
-#| msgid "map / geolocalisation"
 msgid "map / geolocalization"
 msgstr "マップ / ジオローカリゼーション"
 
@@ -814,10 +809,8 @@ msgid "waiting time between each picture in slideshow"
 msgstr "スライドショーの各写真間の待ち時間"
 
 #: ../build/bin/preferences_gen.h:5223
-#, fuzzy
-#| msgid "mask post-processing"
 msgid "processing"
-msgstr "マスク 後処理"
+msgstr "処理"
 
 #: ../build/bin/preferences_gen.h:5238
 msgid "always use LittleCMS 2 to apply output color profile"
@@ -828,10 +821,8 @@ msgid "this is slower than the default."
 msgstr "デフォルトより遅くなります"
 
 #: ../build/bin/preferences_gen.h:5274
-#, fuzzy
-#| msgid "pixel interpolator"
 msgid "pixel interpolator (warp)"
-msgstr "ピクセル補間"
+msgstr "ピクセル補間 (warp)"
 
 #: ../build/bin/preferences_gen.h:5285 ../build/bin/preferences_gen.h:5350
 #: ../build/bin/conf_gen.h:1919 ../build/bin/conf_gen.h:1929
@@ -853,22 +844,18 @@ msgid "lanczos2"
 msgstr "ランチョス2"
 
 #: ../build/bin/preferences_gen.h:5317
-#, fuzzy
-#| msgid ""
-#| "pixel interpolator used in rotation and lens correction (bilinear, "
-#| "bicubic, lanczos2, lanczos3)."
 msgid ""
 "pixel interpolator used in modules for rotation, lens correction, liquify, "
 "cropping and final scaling (bilinear, bicubic, lanczos2)."
 msgstr ""
-"ピクセル補間は、回転とレンズ補正で使用されます (バイリニア, バイキュービッ"
-"ク, ランチョス2, ランチョス3)."
+"ピクセル補間は次のモジュール「回転」, 「レンズ補正」, 「液化」, 「トリミン"
+"グ」, \n"
+"および最終スケーリング (バイリニア, バイキュービック, ランチョス 2) で使用さ"
+"れます"
 
 #: ../build/bin/preferences_gen.h:5339
-#, fuzzy
-#| msgid "pixel interpolator"
 msgid "pixel interpolator (scaling)"
-msgstr "ピクセル補間"
+msgstr "ピクセル補間 (スケーリング)"
 
 #: ../build/bin/preferences_gen.h:5365 ../build/bin/preferences_gen.h:5384
 #: ../build/bin/conf_gen.h:1932
@@ -877,15 +864,11 @@ msgid "lanczos3"
 msgstr "ランチョス3"
 
 #: ../build/bin/preferences_gen.h:5387
-#, fuzzy
-#| msgid ""
-#| "pixel interpolator used in rotation and lens correction (bilinear, "
-#| "bicubic, lanczos2, lanczos3)."
 msgid ""
 "pixel interpolator used for scaling (bilinear, bicubic, lanczos2, lanczos3)."
 msgstr ""
-"ピクセル補間は、回転とレンズ補正で使用されます (バイリニア, バイキュービッ"
-"ク, ランチョス2, ランチョス3)."
+"スケーリングに使用されるピクセル補間です (バイリニア, バイキュービック, ラン"
+"チョス 2, ランチョス 3)"
 
 #: ../build/bin/preferences_gen.h:5409
 msgid "3D lut root folder"
@@ -902,33 +885,27 @@ msgid "select directory"
 msgstr "ディレクトリの選択"
 
 #: ../build/bin/preferences_gen.h:5428
-#, fuzzy
-#| msgid ""
-#| "this folder (and sub-folders) contains Lut files used by lut3d modules. "
-#| "need to restart darktable."
 msgid ""
 "this folder (and sub-folders) contains Lut files used by lut3d modules. "
 "(need a restart)."
 msgstr ""
 "このフォルダー (およびサブフォルダー) には、LUT 3D モジュールで使用される "
-"LUT ファイルが含まれています (用再起動)"
+"LUT ファイルが含まれています (要再起動)"
 
 #: ../build/bin/preferences_gen.h:5450
 msgid "auto-apply pixel workflow defaults"
-msgstr ""
+msgstr "ワークフローのデフォルトを自動適用する"
 
 #: ../build/bin/preferences_gen.h:5461 ../build/bin/preferences_gen.h:5490
 #: ../build/bin/conf_gen.h:2602
 msgctxt "preferences"
 msgid "scene-referred"
-msgstr ""
+msgstr "シーン参照"
 
 #: ../build/bin/preferences_gen.h:5466 ../build/bin/conf_gen.h:2603
-#, fuzzy
-#| msgid "display profile"
 msgctxt "preferences"
 msgid "display-referred"
-msgstr "ディスプレイ・プロファイル"
+msgstr "表示参照"
 
 #: ../build/bin/preferences_gen.h:5471 ../build/bin/preferences_gen.h:7464
 #: ../build/bin/conf_gen.h:1628 ../build/bin/conf_gen.h:2182
@@ -944,27 +921,25 @@ msgid ""
 "display-referred workflow is based on Lab modules and will auto-apply base "
 "curve and the legacy module pipe order."
 msgstr ""
+"シーン参照ワークフローは線形モジュールに基づいており、フィルミックRGBと露出を"
+"自動適用します。\n"
+"表示参照ワークフローはラボモジュールに基づいており、ベースカーブとレガシーモ"
+"ジュールのパイプ順序を自動適用します。"
 
 #: ../build/bin/preferences_gen.h:5515
-#, fuzzy
-#| msgid "automatic chromatic aberration correction"
 msgid "auto-apply chromatic adaptation defaults"
-msgstr "自動色収差補正"
+msgstr "色順応のデフォルトを自動適用する"
 
 #: ../build/bin/preferences_gen.h:5526 ../build/bin/conf_gen.h:2612
-#, fuzzy
-#| msgid "mode"
 msgctxt "preferences"
 msgid "modern"
-msgstr "モード"
+msgstr "モダン"
 
 #: ../build/bin/preferences_gen.h:5531 ../build/bin/preferences_gen.h:5550
 #: ../build/bin/conf_gen.h:2613
-#, fuzzy
-#| msgid "legal"
 msgctxt "preferences"
 msgid "legacy"
-msgstr "リーガル"
+msgstr "レガシー"
 
 #: ../build/bin/preferences_gen.h:5553
 msgid ""
@@ -973,6 +948,10 @@ msgid ""
 "modern uses a combination of white balance module and color calibration "
 "module, with improved color science for chromatic adaptation."
 msgstr ""
+"レガシーは、ホワイトバランスモジュールのみを使用して基本的な色順応を実行しま"
+"す\n"
+"モダンは、ホワイトバランスモジュールとカラーキャリブレーションモジュールの組"
+"み合わせを使用し、色順応のためのカラーサイエンスを改善しています。"
 
 #: ../build/bin/preferences_gen.h:5575
 msgid "auto-apply per camera basecurve presets"
@@ -987,39 +966,42 @@ msgid ""
 "to prevent auto-apply basecurve presets \"auto-apply pixel workflow defaults"
 "\" should be set to \"none\""
 msgstr ""
+"利用可能なものがある場合は、一般的なメーカーのものではなく、デフォルトでカメ"
+"ラごとのベースカーブを使用します（再起動が必要です）。\n"
+"このオプションは、「ピクセルワークフローのデフォルトの自動適用」が「表示参"
+"照」に設定されている場合に考慮されます。\n"
+"ベースカーブプリセットの自動適用を防ぐには、「ピクセルワークフローのデフォル"
+"トの自動適用」を「なし」に設定する必要があります"
 
 #: ../build/bin/preferences_gen.h:5611
 msgid "auto-apply sharpen"
 msgstr "シャープ化を自動適用します"
 
 #: ../build/bin/preferences_gen.h:5625
-#, fuzzy
-#| msgid ""
-#| "this added sharpen is not recommended on cameras without a low-pass "
-#| "filter. the default is to not add any sharpening automatically as most "
-#| "recent cameras have no low-pass filter. (need a restart)"
 msgid ""
 "this added sharpen is not recommended on cameras without a low-pass filter. "
 "you should disable this option if you use one of those more recent cameras "
 "or sharpen your images with other means."
 msgstr ""
-"シャープ化の追加は、ローパスフィルターのないカメラでは推奨されません。 デフォ"
-"ルトでは、最新のカメラにはローパスフィルターがないため、シャープ化は自動的に"
-"追加されません (用再起動)"
+"この追加されたシャープネスは、ローパスフィルターのないカメラでは推奨されませ"
+"ん。 これらの最新のカメラの1つを使用する場合、または他の方法で画像を鮮明にす"
+"る場合は、このオプションを無効にする必要があります。"
 
 #: ../build/bin/preferences_gen.h:5647
 msgid "detect monochrome previews"
-msgstr ""
+msgstr "モノクロプレビューを検出します"
 
 #: ../build/bin/preferences_gen.h:5661
 msgid ""
 "many monochrome images can be identified via exif and preview data. beware: "
 "this slows down imports and reading exif data"
 msgstr ""
+"多くのモノクロ画像は、exifおよびプレビューデータを介して識別できます。 注意："
+"これにより、インポートとexifデータの読み取りが遅くなります"
 
 #: ../build/bin/preferences_gen.h:5683
 msgid "show warning messages"
-msgstr ""
+msgstr "警告メッセージを表示する"
 
 #: ../build/bin/preferences_gen.h:5697
 msgid ""
@@ -1028,6 +1010,11 @@ msgid ""
 "these messages can be false-positive and should be disregarded if you know "
 "what you are doing. this option will hide them all the time."
 msgstr ""
+"モジュールにメッセージを表示して、パイプラインで非標準で有害な可能性のある設"
+"定が使用されている場合に初心者ユーザーに警告します。\n"
+"これらのメッセージは誤検知である可能性があるため、自分が何をしているかを知っ"
+"ている場合は無視する必要があります。 このオプションはそれらを常に非表示にしま"
+"す。"
 
 #: ../build/bin/preferences_gen.h:5725
 msgid "security"
