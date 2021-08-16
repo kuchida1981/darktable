@@ -1790,20 +1790,16 @@ msgid "false"
 msgstr "偽色"
 
 #: ../build/bin/conf_gen.h:761
-#, fuzzy
-#| msgid "select tone color"
 msgid "select only new pictures"
-msgstr "トーンカラーを選択します"
+msgstr "新しい画像のみを選択"
 
 #: ../build/bin/conf_gen.h:762
 msgid "only select images that have not already been imported"
-msgstr ""
+msgstr "まだインポートされていない画像のみを選択する"
 
 #: ../build/bin/conf_gen.h:767
-#, fuzzy
-#| msgid "ignore JPEG files"
 msgid "ignore JPEG images"
-msgstr "JPEGファイルを無視します"
+msgstr "JPEGファイルを無視"
 
 #: ../build/bin/conf_gen.h:768
 msgid ""
@@ -1822,10 +1818,8 @@ msgid "apply some metadata to all newly imported images."
 msgstr "新規にインポートしたすべての画像にメタデータを適用します"
 
 #: ../build/bin/conf_gen.h:779
-#, fuzzy
-#| msgid "select directory"
 msgid "recursive directory"
-msgstr "ディレクトリの選択"
+msgstr "ディレクトリを再帰"
 
 #: ../build/bin/conf_gen.h:780
 msgid "recursive directory traversal when importing filmrolls"
@@ -19088,15 +19082,15 @@ msgstr "上記のリストから選択されたスタイルを削除します"
 
 #: ../src/libs/import.c:1191
 msgid "choose the root of the folder tree below"
-msgstr ""
+msgstr "次のフォルダツリーのルートを選択します"
 
 #: ../src/libs/import.c:1194
 msgid "places"
-msgstr ""
+msgstr "場所"
 
 #: ../src/libs/import.c:1198
 msgid "restore all default places you have removed by right-click"
-msgstr ""
+msgstr "右クリックして削除したデフォルトの場所をすべて復元します"
 
 #: ../src/libs/import.c:1203
 msgid ""
@@ -19104,16 +19098,17 @@ msgid ""
 "\n"
 "right-click on a place to remove it"
 msgstr ""
+"場所を追加する\n"
+"\n"
+"場所を右クリックして削除できます"
 
 #: ../src/libs/import.c:1210
 msgid "you can add custom places using the plus icon"
-msgstr ""
+msgstr "プラスアイコンを使って場所を追加できます"
 
 #: ../src/libs/import.c:1235
-#, fuzzy
-#| msgid "select a folder to import as film roll"
 msgid "select a folder to see the content"
-msgstr "フィルムロールとしてインポートするフォルダを選択します"
+msgstr "コンテンツを表示するにはフォルダを選択してください"
 
 #: ../src/libs/import.c:1238
 msgid "folders"
@@ -19121,74 +19116,56 @@ msgstr "フォルダ"
 
 #: ../src/libs/import.c:1305
 msgid "home"
-msgstr ""
+msgstr "ホームディレクトリ"
 
 #: ../src/libs/import.c:1315
-#, fuzzy
-#| msgid "picture"
 msgid "pictures"
-msgstr "画像"
+msgstr "Pictures"
 
 #: ../src/libs/import.c:1471
-#, fuzzy
-#| msgid "folders"
 msgid "open folder"
-msgstr "フォルダ"
+msgstr "フォルダを開く"
 
 #: ../src/libs/import.c:1534
-#, fuzzy
-#| msgid "failed to import preset"
 msgid "mark already imported pictures"
-msgstr "プリセットのインポートに失敗しました"
+msgstr "インポート済みの画像"
 
 #: ../src/libs/import.c:1558
 msgid "modified"
-msgstr ""
+msgstr "変更日時"
 
 #: ../src/libs/import.c:1563
 msgid "file 'modified date/time', may be different from 'Exif date/time'"
-msgstr ""
+msgstr "ファイルの変更日時はexifの日時とは異なる場合があります"
 
 #: ../src/libs/import.c:1575
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "hide navigation thumbnail"
 msgid "show/hide thumbnails"
-msgstr "ナビゲーションのサムネイルを非表示"
+msgstr "サムネイルを表示/非表示"
 
 #. collapsible section
 #: ../src/libs/import.c:1611
-#, fuzzy
-#| msgid "warming filter"
 msgid "naming rules"
-msgstr "ウォーム・フィルタ"
+msgstr "命名ルール"
 
 #: ../src/libs/import.c:1639
 msgid "add to library"
-msgstr ""
+msgstr "ライブラリへ追加"
 
 #: ../src/libs/import.c:1640
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "copy parts"
 msgid "copy & import"
-msgstr "部分コピー"
+msgstr "コピーしインポート"
 
 #: ../src/libs/import.c:1678 ../src/libs/select.c:138
 msgid "select none"
 msgstr "選択なし"
 
 #: ../src/libs/import.c:1684
-#, fuzzy
-#| msgid "select none"
 msgid "select new"
-msgstr "選択なし"
+msgstr "新しい画像を選択"
 
 #: ../src/libs/import.c:1729
-#, fuzzy
-#| msgid "please wait while prefetching thumbnails of images from camera..."
 msgid "please wait while prefetching the list of images from camera..."
-msgstr "先にカメラから画像のサムネイルを読み込んでいます、お待ちください..."
+msgstr "カメラから画像のリストを取得するまでお待ちください..."
 
 #: ../src/libs/import.c:1947
 msgid "add to library..."
@@ -19217,16 +19194,12 @@ msgid "parameters"
 msgstr "パラメータ"
 
 #: ../src/libs/ioporder.c:149
-#, fuzzy
-#| msgid "current:"
 msgid "current order"
-msgstr "カレント:"
+msgstr "現在の表示順"
 
 #: ../src/libs/ioporder.c:207
-#, fuzzy
-#| msgid "(default)"
 msgid "v3.0 (default)"
-msgstr "(デフォルト)"
+msgstr "v3.0 (デフォルト)"
 
 #: ../src/libs/lib.c:233
 #, c-format
@@ -19234,10 +19207,8 @@ msgid "edit `%s'"
 msgstr "`%s' を編集します"
 
 #: ../src/libs/lib.c:662
-#, fuzzy
-#| msgid "new preset"
 msgid "manage presets..."
-msgstr "新しいプリセット"
+msgstr "プリセットを管理..."
 
 #: ../src/libs/lib.c:687
 msgid "nothing to save"
@@ -19326,7 +19297,7 @@ msgstr "フォーカスポイント・インに移動 (ステップ小)"
 
 #: ../src/libs/live_view.c:395
 msgid "run autofocus"
-msgstr ""
+msgstr "オートフォーカスする"
 
 #: ../src/libs/live_view.c:396
 msgid "move focus point out (small steps)"
