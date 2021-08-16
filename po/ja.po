@@ -1021,50 +1021,32 @@ msgid "security"
 msgstr "セキュリティ"
 
 #: ../build/bin/preferences_gen.h:5740
-#, fuzzy
-#| msgid "ask before removing images from database"
 msgid "ask before removing images from the library"
-msgstr "画像をデータベースから削除する前に確認します"
+msgstr "画像をライブラリから削除する前に確認します"
 
 #: ../build/bin/preferences_gen.h:5754
-#, fuzzy
-#| msgid "always ask the user before any image is removed from DB."
 msgid "always ask the user before any image is removed from the library"
-msgstr "画像がデータベースから削除される前に必ずユーザーに確認を求めます"
+msgstr "画像がライブラリから削除される前に必ずユーザーに確認を求めます"
 
 #: ../build/bin/preferences_gen.h:5776
-#, fuzzy
-#| msgid "ask before removing images from database"
 msgid "ask before deleting images from disk"
-msgstr "画像をデータベースから削除する前に確認します"
+msgstr "画像をディスクから削除する前に確認します"
 
 #: ../build/bin/preferences_gen.h:5790
-#, fuzzy
-#| msgid "always ask the user before any image file is moved."
 msgid "always ask the user before any image file is deleted"
-msgstr "ファイルが移動される前に必ずユーザーに確認を求めます"
+msgstr "画像ファイルを削除する前に, 必ずユーザーに確認を求めます"
 
 #: ../build/bin/preferences_gen.h:5812
-#, fuzzy
-#| msgid "ask before erasing images from disk / discarding history stack"
 msgid "ask before discarding history stack"
-msgstr "画像をディスクから削除 / 履歴スタックを破棄する前に確認します"
+msgstr "履歴スタックを破棄する前に確認します"
 
 #: ../build/bin/preferences_gen.h:5826
-#, fuzzy
-#| msgid ""
-#| "always ask the user before any image file is deleted / history stack is "
-#| "discarded."
 msgid "always ask the user before history stack is discarded on any image"
-msgstr ""
-"画像をディスクから削除 / 履歴スタックを破棄する前に必ずユーザーに確認を求めま"
-"す"
+msgstr "履歴スタックを破棄する前に必ずユーザーに確認を求めます"
 
 #: ../build/bin/preferences_gen.h:5848
-#, fuzzy
-#| msgid "send files to trash when erasing images"
 msgid "try to use trash when deleting images"
-msgstr "削除するファイルをゴミ箱に入れます"
+msgstr "画像を削除するときにゴミ箱を使用する"
 
 #: ../build/bin/preferences_gen.h:5862
 msgid ""
@@ -1109,24 +1091,20 @@ msgid "ask before deleting a style"
 msgstr "スタイルを削除する前に確認します"
 
 #: ../build/bin/preferences_gen.h:6062
-#, fuzzy
-#| msgid "ask before deleting a style"
 msgid "ask before deleting a preset"
-msgstr "スタイルを削除する前に確認します"
+msgstr "プリセットを削除する前に確認します"
 
 #: ../build/bin/preferences_gen.h:6076
 msgid "will ask for confirmation before deleting or overwriting a preset"
-msgstr ""
+msgstr "プリセットを削除または上書きする前にユーザーに確認を求めます"
 
 #: ../build/bin/preferences_gen.h:6098
-#, fuzzy
-#| msgid "ask before removing empty folders"
 msgid "ask before exporting in overwrite mode"
-msgstr "空のフォルダを削除する前に確認します"
+msgstr "上書きモードでエクスポートする前に確認します"
 
 #: ../build/bin/preferences_gen.h:6112
 msgid "will ask for confirmation before exporting files in overwrite mode"
-msgstr ""
+msgstr "上書きモードでファイルをエクスポートする前にユーザーに確認を求めます"
 
 #: ../build/bin/preferences_gen.h:6140
 msgid "cpu / gpu / memory"
