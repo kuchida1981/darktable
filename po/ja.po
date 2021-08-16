@@ -1432,19 +1432,19 @@ msgid "miscellaneous"
 msgstr "その他の項目"
 
 #: ../build/bin/preferences_gen.h:6955
-#, fuzzy
-#| msgid "interface language"
 msgid "interface"
-msgstr "インターフェース言語"
+msgstr "インターフェース"
 
 #: ../build/bin/preferences_gen.h:6975
 msgid "sort built-in presets first"
-msgstr ""
+msgstr "組み込みのプリセットを最初に並べ替えます。"
 
 #: ../build/bin/preferences_gen.h:6989
 msgid ""
 "whether to show built-in presets first before user's presets in presets menu."
 msgstr ""
+"プリセットメニューでユーザーのプリセットの前に組み込みのプリセットを最初に表"
+"示するかどうか。"
 
 #: ../build/bin/preferences_gen.h:7011
 msgid "mouse wheel scrolls modules side panel by default"
@@ -1536,7 +1536,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:7216
 msgid "keyboard shortcuts with multiple instances"
-msgstr ""
+msgstr "マルチ・インスタンスを含むキーボード・ショートカット"
 
 #: ../build/bin/preferences_gen.h:7221
 msgid ""
@@ -1544,67 +1544,66 @@ msgid ""
 "that are applied (in order) to decide which module instance keyboard "
 "shortcuts will be applied to"
 msgstr ""
+"複数のモジュールインスタンスが存在する場合、これらの設定は、どのモジュールイ"
+"ンスタンスのキーボードショートカットを適用するかを決定するために（順番に）適"
+"用されるルールを制御します。"
 
 #: ../build/bin/preferences_gen.h:7237
-#, fuzzy
-#| msgid "preferences"
 msgid "prefer expanded instances"
-msgstr "設定"
+msgstr "拡張インスタンスを優先する"
 
 #: ../build/bin/preferences_gen.h:7251
 msgid "if instances of the module are expanded, ignore collapsed instances"
 msgstr ""
+"モジュールのインスタンスが展開されている場合は、折りたたまれたインスタンスを"
+"無視します。"
 
 #: ../build/bin/preferences_gen.h:7273
-#, fuzzy
-#| msgid "preferences"
 msgid "prefer enabled instances"
-msgstr "設定"
+msgstr "有効なインスタンスを優先する"
 
 #: ../build/bin/preferences_gen.h:7287
 msgid ""
 "after applying the above rule, if instances of the module are active, ignore "
 "inactive instances"
 msgstr ""
+"上記のルールを適用した後、モジュールのインスタンスがアクティブな場合は、非ア"
+"クティブなインスタンスを無視します。"
 
 #: ../build/bin/preferences_gen.h:7309
-#, fuzzy
-#| msgid "preferences"
 msgid "prefer unmasked instances"
-msgstr "設定"
+msgstr "マスクされていないインスタンスを優先する"
 
 #: ../build/bin/preferences_gen.h:7323
 msgid ""
 "after applying the above rules, if instances of the module are unmasked, "
 "ignore masked instances"
 msgstr ""
+"上記のルールを適用した後、モジュールのインスタンスがマスクされていない場合"
+"は、マスクされたインスタンスを無視します"
 
 #: ../build/bin/preferences_gen.h:7345
-#, fuzzy
-#| msgid "select border color"
 msgid "selection order"
-msgstr "ボーダーカラー選択"
+msgstr "選択順"
 
 #: ../build/bin/preferences_gen.h:7356 ../build/bin/conf_gen.h:152
-#, fuzzy
-#| msgid "focus distance"
 msgctxt "preferences"
 msgid "first instance"
-msgstr "被写体までの距離"
+msgstr "最初のインスタンス"
 
 #: ../build/bin/preferences_gen.h:7361 ../build/bin/preferences_gen.h:7380
 #: ../build/bin/conf_gen.h:153
-#, fuzzy
-#| msgid "duplicate instance"
 msgctxt "preferences"
 msgid "last instance"
-msgstr "インスタンスを複製"
+msgstr "最後のインスタンス"
 
 #: ../build/bin/preferences_gen.h:7383
 msgid ""
 "after applying the above rules, apply the shortcut based on its position in "
 "the pixelpipe"
 msgstr ""
+"上記のルールを適用した後、ピクセルパイプ内の位置に基づいてショートカットを適"
+"用します。"
 
 #. char *italic = g_strdup_printf("<i>%s</i>", _("other"));
 #. italic
