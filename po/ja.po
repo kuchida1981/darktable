@@ -1259,97 +1259,87 @@ msgstr ""
 "最速なGPU - 両方のピクセルパイプをGPUで順番に処理します"
 
 #: ../build/bin/preferences_gen.h:6528
-#, fuzzy
-#| msgid "storage file"
 msgid "storage"
-msgstr "ストレージ・ファイル"
+msgstr "ストレージ"
 
 #: ../build/bin/preferences_gen.h:6531
-#, fuzzy
-#| msgid "delete database"
 msgid "database"
-msgstr "データベースを削除"
+msgstr "データベース"
 
 #: ../build/bin/preferences_gen.h:6551
 msgid "check for database maintenance"
-msgstr ""
+msgstr "データベースのメンテナンスを確認する"
 
 #: ../build/bin/preferences_gen.h:6567 ../build/bin/conf_gen.h:185
-#, fuzzy
-#| msgid "1 star"
 msgctxt "preferences"
 msgid "on startup"
-msgstr "星一つ"
+msgstr "起動時"
 
 #: ../build/bin/preferences_gen.h:6572 ../build/bin/preferences_gen.h:6611
 #: ../build/bin/preferences_gen.h:6712 ../build/bin/conf_gen.h:186
 #: ../build/bin/conf_gen.h:208
-#, fuzzy
-#| msgid "close"
 msgctxt "preferences"
 msgid "on close"
-msgstr "閉じる"
+msgstr "終了時"
 
 #: ../build/bin/preferences_gen.h:6577 ../build/bin/conf_gen.h:187
-#, fuzzy
-#| msgctxt "preferences"
-#| msgid "show both"
 msgctxt "preferences"
 msgid "on both"
-msgstr "両方 表示"
+msgstr "両方"
 
 #: ../build/bin/preferences_gen.h:6582 ../build/bin/conf_gen.h:188
 msgctxt "preferences"
 msgid "on startup (don't ask)"
-msgstr ""
+msgstr "起動時 (確認しない)"
 
 #: ../build/bin/preferences_gen.h:6587 ../build/bin/conf_gen.h:189
 msgctxt "preferences"
 msgid "on close (don't ask)"
-msgstr ""
+msgstr "終了時 (確認しない)"
 
 #: ../build/bin/preferences_gen.h:6592 ../build/bin/conf_gen.h:190
 msgctxt "preferences"
 msgid "on both (don't ask)"
-msgstr ""
+msgstr "両方 (確認しない)"
 
 #: ../build/bin/preferences_gen.h:6614
 msgid ""
 "this option indicates when to check database fragmentation and perform "
 "maintenance"
 msgstr ""
+"このオプションは、データベースの断片化をチェックしてメンテナンスを実行するタ"
+"イミングを示します"
 
 #: ../build/bin/preferences_gen.h:6636
 msgid "database fragmentation ratio threshold"
-msgstr ""
+msgstr "データベースの断片化率のしきい値"
 
 #: ../build/bin/preferences_gen.h:6659
 msgid ""
 "fragmentation ratio above which to ask or carry out automatically database "
 "maintenance"
 msgstr ""
+"データベースのメンテナンスを自動的に要求または実行する断片化率 しきい値"
 
 #: ../build/bin/preferences_gen.h:6681
-#, fuzzy
-#| msgid "take snapshot"
 msgid "create database snapshot"
-msgstr "スナップショットを撮る"
+msgstr "データベーススナップショットを作成する"
 
 #: ../build/bin/preferences_gen.h:6697 ../build/bin/conf_gen.h:205
 msgctxt "preferences"
 msgid "once a month"
-msgstr ""
+msgstr "月に一度"
 
 #: ../build/bin/preferences_gen.h:6702 ../build/bin/preferences_gen.h:6731
 #: ../build/bin/conf_gen.h:206
 msgctxt "preferences"
 msgid "once a week"
-msgstr ""
+msgstr "週に一度"
 
 #: ../build/bin/preferences_gen.h:6707 ../build/bin/conf_gen.h:207
 msgctxt "preferences"
 msgid "once a day"
-msgstr ""
+msgstr "日に一度"
 
 #: ../build/bin/preferences_gen.h:6734
 msgid ""
@@ -1362,10 +1352,21 @@ msgid ""
 "once a day - create snapshot if over 24h passed since last snapshot\n"
 "on close - create snapshot every time darktable is closed"
 msgstr ""
+"データベーススナップショットは、darktableを閉じる直前に作成されます。 オプ"
+"ションを使用すると、スナップショットを作成する頻度を選択できます。\n"
+"しない-単にスナップショットを作成しないでください。 そうすれば、実行されるス"
+"ナップショットは必須のバージョンアップグレードスナップショットのみです。\n"
+"月に一度-最後のスナップショットから1か月が経過した場合は、スナップショットを"
+"作成します\n"
+"週に一度-最後のスナップショットから7日が経過した場合はスナップショットを作成"
+"します\n"
+"日に一度-最後のスナップショットから24時間以上経過した場合は、スナップショット"
+"を作成します\n"
+"終了時-darktableがクローズされるたびにスナップショットを作成します"
 
 #: ../build/bin/preferences_gen.h:6756
 msgid "how many snapshots to keep"
-msgstr ""
+msgstr "保持するスナップショットの数"
 
 #: ../build/bin/preferences_gen.h:6779
 msgid ""
@@ -1374,6 +1375,11 @@ msgid ""
 "keep in mind that snapshots do take some space and you only need the most "
 "recent one for successful restore"
 msgstr ""
+"スナップショットの作成に成功した後、保持する古いスナップショットの数（必須の"
+"バージョン更新スナップショットを除く）。 すべてのスナップショットを保持するに"
+"は、-1を入力します\n"
+"スナップショットにはある程度のスペースが必要であり、復元を成功させるために必"
+"要なのは最新のものだけであることに注意してください。"
 
 #: ../build/bin/preferences_gen.h:6789
 msgid "xmp"
