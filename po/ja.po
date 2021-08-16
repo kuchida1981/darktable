@@ -21484,38 +21484,31 @@ msgstr "画像情報"
 
 #: ../src/libs/tools/lighttable.c:117
 msgid "click to exit from full preview layout."
-msgstr ""
+msgstr "フルプレビュー表示を終了する"
 
 #: ../src/libs/tools/lighttable.c:119
 msgid "click to enter full preview layout."
-msgstr ""
+msgstr "フルプレビュー表示に切り替え"
 
 #: ../src/libs/tools/lighttable.c:122
 msgid "click to enter culling layout in fixed mode."
-msgstr ""
+msgstr "カリング表示 固定モードに切り替え"
 
 #: ../src/libs/tools/lighttable.c:124 ../src/libs/tools/lighttable.c:129
-#, fuzzy
-#| msgid "click to edit nodes"
 msgid "click to exit culling layout."
-msgstr "クリックでノード編集"
+msgstr "カリング表示を終了する"
 
 #: ../src/libs/tools/lighttable.c:127
-#, fuzzy
-#| msgctxt "accel"
-#| msgid "toggle culling dynamic mode"
 msgid "click to enter culling layout in dynamic mode."
-msgstr "カリング ダイナミックモードの切り替え"
+msgstr "カリング表示 ダイナミックモードの切り替え"
 
 #: ../src/libs/tools/lighttable.c:260
 msgid "click to enter filemanager layout."
-msgstr ""
+msgstr "ファイルマネージャ表示に切り替え"
 
 #: ../src/libs/tools/lighttable.c:267
-#, fuzzy
-#| msgid "zoomable light table"
 msgid "click to enter zoomable lighttable layout."
-msgstr "ズーム可能なライトテーブル"
+msgstr "ズーム可能なライトテーブル表示に切り替え"
 
 #. view accels
 #: ../src/libs/tools/lighttable.c:565
