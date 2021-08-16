@@ -1686,33 +1686,27 @@ msgstr "インポート・セッションに使用されるファイルのネー
 
 #: ../build/bin/preferences_gen.h:7760
 msgid "do not set the 'uncategorized' entry for tags"
-msgstr ""
+msgstr "タグに「未分類」エントリを設定しない"
 
 #: ../build/bin/preferences_gen.h:7774
 msgid ""
 "do not set the 'uncategorized' entry for tags which do not have children"
-msgstr ""
+msgstr "子を持たないタグには「未分類」エントリを設定しない"
 
 #: ../build/bin/preferences_gen.h:7796
-#, fuzzy
-#| msgid "sensitivity"
 msgid "tags case sensitivity"
-msgstr "感度"
+msgstr "タグの大文字と小文字の区別"
 
 #: ../build/bin/preferences_gen.h:7807 ../build/bin/conf_gen.h:410
-#, fuzzy
-#| msgid "sensitivity"
 msgctxt "preferences"
 msgid "sensitive"
-msgstr "感度"
+msgstr "区別する"
 
 #: ../build/bin/preferences_gen.h:7812 ../build/bin/preferences_gen.h:7831
 #: ../build/bin/conf_gen.h:411
-#, fuzzy
-#| msgid "sensitivity"
 msgctxt "preferences"
 msgid "insensitive"
-msgstr "感度"
+msgstr "区別しない"
 
 #: ../build/bin/preferences_gen.h:7834
 msgid ""
@@ -1731,39 +1725,35 @@ msgid ""
 msgstr "フィルムロール名に表示するファイル＋フォルダの階層数を指定します"
 
 #: ../build/bin/preferences_gen.h:7902
-#, fuzzy
-#| msgid "select film roll"
 msgid "sort film rolls by"
-msgstr "フィルム ロールを選択します"
+msgstr "フィルム ロールを並べ替え"
 
 #: ../build/bin/preferences_gen.h:7913 ../build/bin/preferences_gen.h:7937
 #: ../build/bin/conf_gen.h:591
-#, fuzzy
-#| msgid "id"
 msgctxt "preferences"
 msgid "id"
-msgstr "id"
+msgstr "ID"
 
 #: ../build/bin/preferences_gen.h:7918 ../build/bin/conf_gen.h:592
-#, fuzzy
-#| msgid "folders"
 msgctxt "preferences"
 msgid "folder"
 msgstr "フォルダ"
 
 #: ../build/bin/preferences_gen.h:7940
 msgid "sets the collections-list order for film rolls"
-msgstr ""
+msgstr "フィルムロールのコレクションリストの表示順を設定します"
 
 #: ../build/bin/preferences_gen.h:7962
 msgid "sort collection descending"
-msgstr ""
+msgstr "コレクションを降順で並べ替える"
 
 #: ../build/bin/preferences_gen.h:7976
 msgid ""
 "sort the following collections in descending order: 'film roll' by folder, "
 "'folder', 'times' (e.g. 'date taken')"
 msgstr ""
+"次のコレクションを降順で並べ替えます：「フィルムロール」フォルダ、「フォル"
+"ダ」、「回数」（例：「撮影日」）"
 
 #: ../build/bin/conf_gen.h:435
 msgctxt "preferences"
