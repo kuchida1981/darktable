@@ -3308,9 +3308,6 @@ msgstr "露光バイアス"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:168
 #: ../build/lib/darktable/plugins/introspection_levels.c:160
-#, fuzzy
-#| msgctxt "mode"
-#| msgid "manual"
 msgid "manual"
 msgstr "マニュアル"
 
@@ -8068,18 +8065,14 @@ msgid "blending"
 msgstr "割り当て"
 
 #: ../src/gui/accelerators.c:128 ../src/gui/accelerators.c:133
-#, fuzzy
-#| msgid "process mode"
 msgctxt "accel"
 msgid "processing modules"
-msgstr "プロセスモード"
+msgstr "処理モジュール"
 
 #: ../src/gui/accelerators.c:140
-#, fuzzy
-#| msgid "subset: all modules"
 msgctxt "accel"
 msgid "utility modules"
-msgstr "サブセット: 全てのモジュール"
+msgstr "ユーティリティモジュール"
 
 #: ../src/gui/accelerators.c:146
 msgctxt "accel"
@@ -13513,6 +13506,8 @@ msgid ""
 "redo the exposure of the shot as if you were still in-camera\n"
 "using a color-safe brightening similar to increasing ISO setting"
 msgstr ""
+"ISO設定を上げるのと同様に、カラーセーフブライトニングを使用して、\n"
+"まだカメラ内にいるかのようにショットの露出をやり直します"
 
 #: ../src/iop/exposure.c:258
 msgid "magic lantern defaults"
@@ -13527,13 +13522,15 @@ msgstr "画像 `%s'からRAWバッファの取得に失敗しました"
 #: ../src/iop/exposure.c:555
 #, no-c-format
 msgid "compensate camera exposure (%+.1f EV)"
-msgstr ""
+msgstr "カメラの露出を補正する (%+.1f EV)"
 
 #: ../src/iop/exposure.c:829
 msgid ""
 "automatically remove the camera exposure bias\n"
 "this is useful if you exposed the image to the right."
 msgstr ""
+"カメラの露出補正値を自動的に削除します.\n"
+"これは、画像を右に露出した場合に役立ちます。"
 
 #: ../src/iop/exposure.c:841
 msgid ""
@@ -18357,30 +18354,24 @@ msgid "ctrl+scroll to change display height"
 msgstr "Ctrl+スクロールでシェイプの不透明度を設定 (%d%%)"
 
 #: ../src/libs/histogram.c:987
-#, fuzzy
-#| msgid ""
-#| "drag to change black point,\n"
-#| "doubleclick resets"
 msgid ""
 "drag to change black point,\n"
 "doubleclick resets\n"
 "ctrl+scroll to change display height"
 msgstr ""
-"ドラッグで黒ポイント変更,\n"
-"ダブルクリックでリセット"
+"ドラッグで黒レベルを変更,\n"
+"ダブルクリックでリセット.\n"
+"Ctrl+マウスホイールで表示の高さを変更."
 
 #: ../src/libs/histogram.c:992
-#, fuzzy
-#| msgid ""
-#| "drag to change exposure,\n"
-#| "doubleclick resets"
 msgid ""
 "drag to change exposure,\n"
 "doubleclick resets\n"
 "ctrl+scroll to change display height"
 msgstr ""
-"ドラッグで露光量変更,\n"
-"ダブルクリックでリセット"
+"ドラッグで露光を変更,\n"
+"ダブルクリックでリセット.\n"
+"Ctrl+マウスホイールで表示の高さを変更."
 
 #: ../src/libs/histogram.c:1105 ../src/libs/histogram.c:1152
 #, fuzzy
@@ -18634,15 +18625,10 @@ msgid "parametric input mask:"
 msgstr "パラメトリック マスク"
 
 #: ../src/libs/history.c:1227
-#, fuzzy
-#| msgid "do you really want to clear history of %d selected image?"
-#| msgid_plural "do you really want to clear history of %d selected images?"
 msgid "do you really want to clear history of current image?"
-msgstr "%d 枚の選択画像の履歴を削除しますか？"
+msgstr "現在の画像の履歴を削除しますか？"
 
 #: ../src/libs/history.c:1232
-#, fuzzy
-#| msgid "delete images' history?"
 msgid "delete image's history?"
 msgstr "画像の履歴を削除しますか?"
 
@@ -21309,37 +21295,39 @@ msgstr "設定"
 #: ../src/libs/tools/global_toolbox.c:756
 msgctxt "accel"
 msgid "thumbnail overlays/no overlays"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/オーバーレイ表示しない"
 
 #: ../src/libs/tools/global_toolbox.c:757
 msgctxt "accel"
 msgid "thumbnail overlays/overlays on mouse hover"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/マウスオーバー時にオーバーレイ表示"
 
 #: ../src/libs/tools/global_toolbox.c:758
 msgctxt "accel"
 msgid "thumbnail overlays/extended overlays on mouse hover"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/マウスオーバー時に拡張オーバーレイ表示"
 
 #: ../src/libs/tools/global_toolbox.c:759
 msgctxt "accel"
 msgid "thumbnail overlays/permanent overlays"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/常にオーバーレイ表示"
 
 #: ../src/libs/tools/global_toolbox.c:760
 msgctxt "accel"
 msgid "thumbnail overlays/permanent extended overlays"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/常に拡張オーバーレイ表示"
 
 #: ../src/libs/tools/global_toolbox.c:761
 msgctxt "accel"
 msgid "thumbnail overlays/permanent overlays extended on mouse hover"
 msgstr ""
+"サムネイル オーバーレイ表示/常にオーバーレイ表示し, マウスオーバー時に拡張情"
+"報を表示"
 
 #: ../src/libs/tools/global_toolbox.c:762
 msgctxt "accel"
 msgid "thumbnail overlays/overlays block on mouse hover"
-msgstr ""
+msgstr "サムネイル オーバーレイ表示/マウスホバー時に一定時間オーバーレイ表示"
 
 #: ../src/libs/tools/hinter.c:42
 msgid "hinter"
