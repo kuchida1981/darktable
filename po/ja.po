@@ -3203,17 +3203,13 @@ msgstr "バイアス補正"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:155
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:320
-#, fuzzy
-#| msgid "tethering"
 msgid "scattering"
-msgstr "テザリング"
+msgstr "拡散"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:161
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:324
-#, fuzzy
-#| msgid "central pixel weight (details)"
 msgid "central pixel weight"
-msgstr "中央ピクセルの重み (詳細)"
+msgstr "中央ピクセルの重み"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:167
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:328
@@ -13188,7 +13184,7 @@ msgstr "ノイズ低減 (プロファイル)"
 
 #: ../src/iop/denoiseprofile.c:668
 msgid "denoise using noise statistics profiled on sensors."
-msgstr ""
+msgstr "センサーでプロファイルされたノイズ統計を使用してノイズを除去します"
 
 #: ../src/iop/denoiseprofile.c:2665
 #, c-format
@@ -13307,10 +13303,6 @@ msgid "profile used for variance stabilization"
 msgstr "プロファイルは分散安定化に使用されます"
 
 #: ../src/iop/denoiseprofile.c:3675
-#, fuzzy
-#| msgid ""
-#| "method used in the denoising core. non-local means works best for "
-#| "`lightness' blending, wavelets work best for `color' blending"
 msgid ""
 "method used in the denoising core.\n"
 "non-local means works best for `lightness' blending,\n"
@@ -13329,13 +13321,6 @@ msgid ""
 msgstr ""
 
 #: ../src/iop/denoiseprofile.c:3682
-#, fuzzy
-#| msgid ""
-#| "radius of the patches to match.\n"
-#| "increase for more sharpness on strong edges, and better denoising of "
-#| "smooth areas.\n"
-#| "if details are oversmoothed, reduce this value or increase the details "
-#| "slider."
 msgid ""
 "radius of the patches to match.\n"
 "increase for more sharpness on strong edges, and better denoising of smooth "
@@ -13346,8 +13331,8 @@ msgstr ""
 "一致するパッチの半径\n"
 "強いエッジでシャープネスを高めるために増加し、滑らかな領域のノイズ低減を改善"
 "します\n"
-"ディテールが過度に平滑化されている場合は、この値を下げるか、ディテールスライ"
-"ダーを増やします"
+"ディテールが過度に平滑化されている場合は、この値を下げるか、中央ピクセルの重"
+"み を増やします"
 
 #: ../src/iop/denoiseprofile.c:3685
 msgid ""
@@ -13360,10 +13345,6 @@ msgstr ""
 "す"
 
 #: ../src/iop/denoiseprofile.c:3688
-#, fuzzy
-#| msgid ""
-#| "scattering of the neighbourhood to search patches in. increase for better "
-#| "coarse-grain noise reduction. does not affect execution time."
 msgid ""
 "scattering of the neighbourhood to search patches in.\n"
 "increase for better coarse-grain noise reduction.\n"
@@ -13399,18 +13380,13 @@ msgstr ""
 "写真が露出不足の場合に発生する可能性があります"
 
 #: ../src/iop/denoiseprofile.c:3700
-#, fuzzy
-#| msgid ""
-#| "finetune shadows denoising.\n"
-#| "decrease to denoise more aggressively\n"
-#| "dark areas of the image.\n"
 msgid ""
 "finetune shadows denoising.\n"
 "decrease to denoise more aggressively\n"
 "dark areas of the image."
 msgstr ""
-"ノイズ低減の微調整\n"
-"画像の暗い領域をより積極的にノイズ低減するには下げます\n"
+"シャドウノイズ低減を微調整\n"
+"画像の暗い領域をより積極的にノイズ低減すrには下げます"
 
 #: ../src/iop/denoiseprofile.c:3703
 msgid ""
@@ -14439,7 +14415,7 @@ msgstr ""
 
 #: ../src/iop/hazeremoval.c:110
 msgid "remove fog and atmospheric hazing from pictures"
-msgstr ""
+msgstr "写真から霧と大気のかすみを取り除きます"
 
 #: ../src/iop/hazeremoval.c:204
 msgid "amount of haze reduction"
@@ -14595,7 +14571,7 @@ msgstr "自動色収差補正"
 
 #: ../src/iop/lens.cc:158
 msgid "correct lenses optical flaws"
-msgstr ""
+msgstr "レンズの光学的欠陥を修正します"
 
 #: ../src/iop/lens.cc:161
 #, fuzzy
