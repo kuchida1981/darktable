@@ -3343,10 +3343,8 @@ msgstr "彩度"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:231
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:426
-#, fuzzy
-#| msgid "color reconstruction"
 msgid "bloom/reconstruct"
-msgstr "カラー 復元"
+msgstr "ブルーミング/再構成"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:237
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:430
@@ -3357,10 +3355,8 @@ msgstr "カラーディテールの増加"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:243
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:434
-#, fuzzy
-#| msgid "get structure"
 msgid "structure/texture"
-msgstr "構造を取得"
+msgstr "構成/テクスチャ"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:249
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:438
@@ -3422,10 +3418,8 @@ msgstr "色度を保持"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:315
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:482
-#, fuzzy
-#| msgid "color scheme"
 msgid "color science"
-msgstr "カラー設定"
+msgstr "カラー サイエンス"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:321
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:486
@@ -3437,7 +3431,7 @@ msgstr "ドラッグで硬さ(中心)を調整します"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:327
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:490
 msgid "use custom middle-gray values"
-msgstr ""
+msgstr "カスタム中間グレー値を使用する"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:333
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:494
@@ -3455,17 +3449,13 @@ msgstr "ノイズ低減"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:345
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:502
-#, fuzzy
-#| msgid "correct shadows"
 msgid "contrast in shadows"
-msgstr "シャドウ補正"
+msgstr "シャドウのハイライト"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:351
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:506
-#, fuzzy
-#| msgid "correct highlights"
 msgid "contrast in highlights"
-msgstr "ハイライト補正"
+msgstr "ハイライトのコントラスト"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:357
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:510
@@ -3502,39 +3492,32 @@ msgid "RGB euclidean norm"
 msgstr "RGB ユークリッドノルム"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:533
-#, fuzzy
-#| msgid "RGB euclidean norm"
 msgid "RGB euclidean norm (legacy)"
-msgstr "RGB ユークリッドノルム"
+msgstr "RGB ユークリッドノルム (レガシー)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:537
 msgid "v3 (2019)"
-msgstr ""
+msgstr "v3 (2019)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:538
 msgid "v4 (2020)"
-msgstr ""
+msgstr "v4 (2020)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:539
 msgid "v5 (2021)"
-msgstr ""
+msgstr "v5 (2021)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:543
-#, fuzzy
-#| msgctxt "blendmode"
-#| msgid "hardlight"
 msgid "hard"
-msgstr "ハードライト"
+msgstr "ハード"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:544
-#, fuzzy
-#| msgid "soften"
 msgid "soft"
-msgstr "ソフト化"
+msgstr "ソフト"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:545
 msgid "safe"
-msgstr ""
+msgstr "安全"
 
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:60
 #: ../build/lib/darktable/plugins/introspection_globaltonemap.c:125
@@ -13976,10 +13959,8 @@ msgid "reconstruct"
 msgstr "再構築"
 
 #: ../src/iop/filmicrgb.c:3780
-#, fuzzy
-#| msgid "highlight compression"
 msgid "highlights clipping"
-msgstr "ハイライト圧縮"
+msgstr "ハイライト クリッピング"
 
 #: ../src/iop/filmicrgb.c:3788
 msgid ""
@@ -13990,6 +13971,11 @@ msgid ""
 "decrease to include more areas,\n"
 "increase to exclude more areas."
 msgstr ""
+"クリップされたハイライトが再構築される露出しきい値を設定します。\n"
+"値は、シーンの 白 相対露光量 を基準にしています。\n"
+"0 EVは、しきい値がシーンの白 相対露光量 と同じであることを意味します。\n"
+"より多くの領域を含めるために減少し、\n"
+"より多くの領域を除外するために増加します。"
 
 #: ../src/iop/filmicrgb.c:3798
 msgid ""
@@ -13997,12 +13983,13 @@ msgid ""
 "decrease to make the transition harder and sharper,\n"
 "increase to make the transition softer and blurrier."
 msgstr ""
+"クリップされたハイライトと有効なピクセルの間の遷移を和らげます。\n"
+"トランジションをより硬質に/シャープにするために減少します。\n"
+"トランジションを柔らかくぼやけさせるために増やします。"
 
 #: ../src/iop/filmicrgb.c:3804
-#, fuzzy
-#| msgid "highlight reconstruction"
 msgid "display highlight reconstruction mask"
-msgstr "ハイライト復元"
+msgstr "ハイライト再構成マスクを表示する"
 
 #: ../src/iop/filmicrgb.c:3811 ../src/iop/splittoning.c:528
 msgid "balance"
@@ -14018,6 +14005,11 @@ msgid ""
 "increase if at least one RGB channel is not clipped.\n"
 "decrease if all RGB channels are clipped over large areas."
 msgstr ""
+"滑らかな色のグラデーションを塗りつぶすか、テクスチャの詳細を復元するかの間"
+"で、どの再構成方法を優先するかを決定します。\n"
+"0％は両方の均等な組み合わせです。\n"
+"少なくとも1つのRGBチャネルがクリップされていない場合は増加します。\n"
+"すべてのRGBチャネルが広い領域でクリップされている場合は減少します。"
 
 #: ../src/iop/filmicrgb.c:3831
 #, no-c-format
@@ -14029,6 +14021,11 @@ msgid ""
 "increase if you want more details.\n"
 "decrease if you want more blur."
 msgstr ""
+"フィルムのようなブルーミング効果か、またはシャープなディテールを取り戻すか、"
+"どちらの再構築方法を優先するかを決定します。\n"
+"0％は両方の均等な組み合わせです。\n"
+"詳細が必要な場合は増やしてください。\n"
+"よりぼかしが必要な場合は減らします。"
 
 #: ../src/iop/filmicrgb.c:3844
 #, no-c-format
@@ -14040,6 +14037,11 @@ msgid ""
 "increase if you want more color.\n"
 "decrease if you see magenta or out-of-gamut highlights."
 msgstr ""
+"単色のハイライトを復元するか、カラフルなハイライトを復元するかを選択しま"
+"す。\n"
+"0％は両方の均等な組み合わせです。\n"
+"より多くの色が必要な場合は増やします。\n"
+"マゼンタまたは色域外のハイライトが表示された場合は減少します。"
 
 #. Page LOOK
 #: ../src/iop/filmicrgb.c:3852
@@ -14078,16 +14080,16 @@ msgstr ""
 
 #. Page OPTIONS
 #: ../src/iop/filmicrgb.c:3919
-#, fuzzy
-#| msgid "GUI options"
 msgid "options"
-msgstr "GUI オプション"
+msgstr "オプション"
 
 #: ../src/iop/filmicrgb.c:3924
 msgid ""
 "v3 is darktable 3.0 desaturation method, same as color balance.\n"
 "v4 is a newer desaturation method, based on spectral purity of light."
 msgstr ""
+"v3は、カラーバランスと同じdarktable3.0の彩度低下方法です。\n"
+"v4は、光のスペクトル純度に基づく新しい彩度低下法です。"
 
 #: ../src/iop/filmicrgb.c:3928
 msgid ""
@@ -14105,6 +14107,9 @@ msgid ""
 "hard uses a high curvature resulting in more tonal compression.\n"
 "soft uses a low curvature resulting in less tonal compression."
 msgstr ""
+"ハイライトでのフィルムスプライン曲率を選択します。\n"
+"ハードは高い曲率を使用するため、より多くの色調が圧縮されます。\n"
+"ソフトは曲率が低く、色調の圧縮が少なくなります。"
 
 #: ../src/iop/filmicrgb.c:3939
 msgid ""
@@ -14112,6 +14117,9 @@ msgid ""
 "hard uses a high curvature resulting in more tonal compression.\n"
 "soft uses a low curvature resulting in less tonal compression."
 msgstr ""
+"シャドウ内のフィルムスプライン曲率を選択します。\n"
+"ハードは高い曲率を使用するため、より多くの色調が圧縮されます。\n"
+"ソフトは曲率が低く、色調の圧縮が少なくなります。"
 
 #: ../src/iop/filmicrgb.c:3944
 #, c-format
@@ -14121,6 +14129,10 @@ msgid ""
 "fix the global exposure in the exposure module instead.\n"
 "disable to use standard 18.45 %% middle gray."
 msgstr ""
+"カスタム中間グレーを入力できるようにします。\n"
+"これは一般的にはお勧めできません。\n"
+"代わりに、露出モジュールでグローバル露出を修正してください。\n"
+"標準の18.45 %%ミドルグレーの使用を無効にします。"
 
 #: ../src/iop/filmicrgb.c:3951
 msgid ""
@@ -14165,10 +14177,8 @@ msgid ""
 msgstr ""
 
 #: ../src/iop/filmicrgb.c:4036
-#, fuzzy
-#| msgid "select the saturation"
 msgid "middle tones saturation"
-msgstr "彩度を選択します"
+msgstr "中間トーン飽和"
 
 #: ../src/iop/finalscale.c:39
 msgctxt "modulename"
