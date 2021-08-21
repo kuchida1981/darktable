@@ -4614,10 +4614,8 @@ msgid "module"
 msgstr "モジュール"
 
 #: ../src/common/collection.c:702 ../src/libs/ioporder.c:39
-#, fuzzy
-#| msgid "smaller border"
 msgid "module order"
-msgstr "より狭いボーダー"
+msgstr "モジュール 表示順"
 
 #: ../src/common/collection.c:1501 ../src/develop/lightroom.c:830
 #: ../src/iop/temperature.c:1869 ../src/libs/collect.c:1715
@@ -13601,11 +13599,6 @@ msgstr ""
 "逆光の場合を除き、約18％になるはずです"
 
 #: ../src/iop/filmic.c:1612 ../src/iop/filmicrgb.c:3745
-#, fuzzy
-#| msgid ""
-#| "number of stops between middle grey and pure white.\n"
-#| "this is a reading a lightmeter would give you on the scene.\n"
-#| "adjust so highlights clipping is avoided"
 msgid ""
 "number of stops between middle gray and pure white.\n"
 "this is a reading a lightmeter would give you on the scene.\n"
@@ -13616,12 +13609,6 @@ msgstr ""
 "ハイライトがクリッピングされないように調整します"
 
 #: ../src/iop/filmic.c:1624 ../src/iop/filmicrgb.c:3755
-#, fuzzy
-#| msgid ""
-#| "number of stops between middle grey and pure black.\n"
-#| "this is a reading a lightmeter would give you on the scene.\n"
-#| "increase to get more contrast.\n"
-#| "decrease to recover more details in low-lights."
 msgid ""
 "number of stops between middle gray and pure black.\n"
 "this is a reading a lightmeter would give you on the scene.\n"
@@ -13820,6 +13807,9 @@ msgid ""
 "for display on SDR screens and paper prints\n"
 "while preventing clipping in non-destructive ways"
 msgstr ""
+"ビュー変換を適用して、\n"
+"非破壊的な方法でクリッピングを防ぎながら、\n"
+"SDR画面やペーパープリントに表示するためのシーン参照パイプラインを準備します"
 
 #: ../src/iop/filmicrgb.c:1148
 #, fuzzy
@@ -13982,10 +13972,8 @@ msgstr ""
 
 #. Page RECONSTRUCT
 #: ../src/iop/filmicrgb.c:3778
-#, fuzzy
-#| msgid "reconstruct color"
 msgid "reconstruct"
-msgstr "色を復元"
+msgstr "再構築"
 
 #: ../src/iop/filmicrgb.c:3780
 #, fuzzy
