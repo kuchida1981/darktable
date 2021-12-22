@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: DarkTable\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-13 18:38+0200\n"
-"PO-Revision-Date: 2021-08-16 13:02+0900\n"
+"PO-Revision-Date: 2021-08-31 21:21+0900\n"
 "Last-Translator: Kosuke Uchida <byebyeearthjpn@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11352,10 +11352,8 @@ msgstr ""
 
 #. our first and biggest problem : white balance module is being clever with WB coeffs
 #: ../src/iop/channelmixerrgb.c:1731
-#, fuzzy
-#| msgid "white balance disabled for camera"
 msgid "white balance module error"
-msgstr "カメラのホワイトバランスが無効になります"
+msgstr "ホワイトバランスモジュールでエラー"
 
 #: ../src/iop/channelmixerrgb.c:1732
 msgid ""
@@ -11364,6 +11362,9 @@ msgid ""
 "with chromatic adaptation. either set it to reference\n"
 "or disable chromatic adaptation here."
 msgstr ""
+"ホワイトバランスモジュールはカメラの基準光源を使用していないため、色順応で問"
+"題が発生します。\n"
+"ここで、参照するように設定するか、色順応を無効にします。"
 
 #: ../src/iop/channelmixerrgb.c:1805
 msgid "auto-detection of white balance completed"
@@ -16398,10 +16399,8 @@ msgstr ""
 
 #. our second biggest problem : another module is doing CAT elsewhere in the pipe
 #: ../src/iop/temperature.c:1164
-#, fuzzy
-#| msgid "white balance disabled for camera"
 msgid "white balance applied twice"
-msgstr "カメラのホワイトバランスが無効になります"
+msgstr "ホワイトバランスを2回適用しました"
 
 #: ../src/iop/temperature.c:1165
 msgid ""
@@ -16410,6 +16409,10 @@ msgid ""
 "set the white balance here to camera reference (D65)\n"
 "or disable chromatic adaptation in color calibration."
 msgstr ""
+"カラーキャリブレーションモジュールが有効になり、色順応を実行します。\n"
+"\n"
+"ここでホワイトバランスをカメラリファレンスに設定します（D65）\n"
+"または、カラーキャリブレーションで色適応を無効にします。"
 
 #: ../src/iop/temperature.c:1414
 #, c-format
